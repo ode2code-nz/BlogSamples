@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Specs.Library.Todo.Helpers
+namespace Specs.Library.ToDo.Helpers
 {
     // helper class from Microsoft source code that is normally internal. i.e. Not available in a nuget package.
     // https://cpratt.co/async-tips-tricks/

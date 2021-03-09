@@ -1,6 +1,6 @@
-﻿using Todo.Domain.Common;
+﻿using ToDo.Domain.Common;
 
-namespace Todo.Domain.Model.ToDos
+namespace ToDo.Domain.Model.ToDos
 {
     public class ToDoItem : Entity
     {

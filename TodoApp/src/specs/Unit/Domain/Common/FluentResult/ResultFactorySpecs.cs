@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
 using FluentResults;
-using Todo.Domain.Common.FluentResult;
+using ToDo.Domain.Common.FluentResult;
 
-namespace Specs.Unit.Todo.Domain.Common.FluentResult
+namespace Specs.Unit.ToDo.Domain.Common.FluentResult
 {
     public class WhenCreatingResults : ScenarioFor<Result>
     {

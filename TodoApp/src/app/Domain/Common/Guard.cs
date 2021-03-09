@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.Runtime.Serialization;
 
-namespace Todo.Domain.Common
+namespace ToDo.Domain.Common
 {
     public static class Guard
     {

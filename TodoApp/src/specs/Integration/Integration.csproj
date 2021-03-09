@@ -3,8 +3,8 @@
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
 		<IsPackable>false</IsPackable>
-		<AssemblyName>Specs.Integration.Todo</AssemblyName>
-		<RootNamespace>Specs.Integration.Todo</RootNamespace>
+		<AssemblyName>Specs.Integration.ToDo</AssemblyName>
+		<RootNamespace>Specs.Integration.ToDo</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>

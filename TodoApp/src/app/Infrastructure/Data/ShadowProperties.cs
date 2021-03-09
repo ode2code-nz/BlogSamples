@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using Todo.Domain.Common;
+using ToDo.Domain.Common;
 
-namespace Todo.Infrastructure.Data
+namespace ToDo.Infrastructure.Data
 {
     public class ShadowProperties
     {

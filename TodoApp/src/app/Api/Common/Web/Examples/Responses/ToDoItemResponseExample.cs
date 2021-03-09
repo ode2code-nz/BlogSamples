@@ -1,7 +1,7 @@
-using Todo.SharedModels.v1.ToDoItems;
+using ToDo.SharedModels.v1.ToDoItems;
 using Swashbuckle.AspNetCore.Filters;
 
-namespace Todo.Api.Common.Web.Examples.Responses
+namespace ToDo.Api.Common.Web.Examples.Responses
 {
     public class ToDoItemResponseExample : IExamplesProvider<ToDoItemResponse>
     {

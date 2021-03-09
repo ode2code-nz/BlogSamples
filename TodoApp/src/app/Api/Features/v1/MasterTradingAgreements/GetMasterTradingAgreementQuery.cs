@@ -6,10 +6,10 @@ using AutoMapper.QueryableExtensions;
 using FluentResults;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Todo.Domain.Common.FluentResult;
-using Todo.Infrastructure.Interfaces;
+using ToDo.Domain.Common.FluentResult;
+using ToDo.Infrastructure.Interfaces;
 
-namespace Todo.Api.Features.v1.MasterTradingAgreements
+namespace ToDo.Api.Features.v1.MasterTradingAgreements
 {
     public class GetMasterTradingAgreementQuery : IRequest<Result<MasterTradingAgreementDto>>
     {

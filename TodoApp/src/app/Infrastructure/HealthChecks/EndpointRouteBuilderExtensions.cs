@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Newtonsoft.Json;
 
-namespace Todo.Infrastructure.HealthChecks
+namespace ToDo.Infrastructure.HealthChecks
 {
     public static class EndpointRouteBuilderExtensions
     {

@@ -1,4 +1,4 @@
-﻿namespace Todo.Domain.Model.MasterTradingAgreements
+﻿namespace ToDo.Domain.Model.MasterTradingAgreements
 {
 
     public enum MasterTradingAgreementType

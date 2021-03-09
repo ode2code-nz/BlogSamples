@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Todo.Domain.Core
+namespace ToDo.Domain.Core
 {
     public static class EnumerableExtensions
     {

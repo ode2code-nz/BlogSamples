@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Todo.Domain.Model
+namespace ToDo.Domain.Model
 {
     public static class DateRangeExtensions
     {

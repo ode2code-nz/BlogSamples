@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using Newtonsoft.Json;
-using Todo.Domain.Common;
+using ToDo.Domain.Common;
 using TestStack.Dossier;
 using TestStack.Dossier.Lists;
 
-namespace Specs.Library.Todo.Data
+namespace Specs.Library.ToDo.Data
 {
     public static class EntityExtensions
     {

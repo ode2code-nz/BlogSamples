@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Todo.Domain.Common
+namespace ToDo.Domain.Common
 {
     public static class SystemTime
     {

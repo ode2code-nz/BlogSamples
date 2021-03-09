@@ -1,4 +1,4 @@
-# Todo
+# ToDo
 
 # Getting Started
 To get started with the solution:

@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Todo.Domain.Common;
+using ToDo.Domain.Common;
 
-namespace Todo.Domain.Model
+namespace ToDo.Domain.Model
 {
     public class Range<T> : ValueObject where T : IComparable<T>
     {

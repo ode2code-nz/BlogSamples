@@ -2,22 +2,22 @@
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
-using Todo.Infrastructure.Data;
-using Todo.Infrastructure.Interfaces;
+using ToDo.Infrastructure.Data;
+using ToDo.Infrastructure.Interfaces;
 using Specify.Autofac;
 using Specify.Configuration;
 using Specify.Mocks;
-using Specs.Library.Todo;
-using Specs.Library.Todo.Builders.ValueSuppliers;
-using Specs.Library.Todo.Data;
-using Specs.Library.Todo.Data.SqlServer;
-using Specs.Library.Todo.Drivers.Api;
-using Specs.Library.Todo.Extensions;
-using Specs.Library.Todo.Identity;
+using Specs.Library.ToDo;
+using Specs.Library.ToDo.Builders.ValueSuppliers;
+using Specs.Library.ToDo.Data;
+using Specs.Library.ToDo.Data.SqlServer;
+using Specs.Library.ToDo.Drivers.Api;
+using Specs.Library.ToDo.Extensions;
+using Specs.Library.ToDo.Identity;
 using TestStack.BDDfy.Configuration;
 using TestStack.Dossier;
 
-namespace Specs.Component.Todo
+namespace Specs.Component.ToDo
 {
     /// <summary>
     /// The startup class to configure Specify with the Autofac container. 
@@ -30,9 +30,9 @@ namespace Specs.Component.Todo
         //IN MEMORY CONFIG
         public ComponentBootstrapper()
         {
-            HtmlReport.ReportHeader = "Todo";
+            HtmlReport.ReportHeader = "ToDo";
             HtmlReport.ReportDescription = "Acceptance Specifications";
-            HtmlReport.OutputFileName = "Todo-AcceptanceSpecs.html";
+            HtmlReport.OutputFileName = "ToDo-AcceptanceSpecs.html";
             Configurator.BatchProcessors.HtmlReport.Disable();
 
             // Because TestStack.Dossier uses NSubstitute need to tell Specify not to mock

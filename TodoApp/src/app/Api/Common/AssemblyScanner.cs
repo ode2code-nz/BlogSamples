@@ -6,7 +6,7 @@ using Autofac;
 using MediatR;
 using TypeExtensions = Autofac.TypeExtensions;
 
-namespace Todo.Api.Common
+namespace ToDo.Api.Common
 {
     public static class AssemblyScanner
     {

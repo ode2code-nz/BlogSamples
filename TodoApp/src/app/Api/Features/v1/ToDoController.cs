@@ -2,17 +2,17 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Todo.Api.Common.Web;
-using Todo.Api.Features.v1.ToDoItems;
-using Todo.SharedModels.v1.Responses;
-using Todo.SharedModels.v1.ToDoItems;
+using ToDo.Api.Common.Web;
+using ToDo.Api.Features.v1.ToDoItems;
+using ToDo.SharedModels.v1.Responses;
+using ToDo.SharedModels.v1.ToDoItems;
 
-namespace Todo.Api.Features.v1
+namespace ToDo.Api.Features.v1
 {
     [Authorize]
     public class ToDoController : ApiController
     {
-        // GET: /todo
+        // GET: /ToDo
         /// <summary>
         /// Gets all the To Do items
         /// </summary>
@@ -24,7 +24,7 @@ namespace Todo.Api.Features.v1
             return result.ToGetResult<List<ToDoItemResponse>, List<ToDoItemDto>>(Mapper);
         }
 
-        // GET: /todo/5
+        // GET: /ToDo/5
         /// <summary>
         /// Gets a single To Do item
         /// </summary>
@@ -38,7 +38,7 @@ namespace Todo.Api.Features.v1
             return result.ToGetResult<ToDoItemResponse, ToDoItemDto>(Mapper);
         }
 
-        // POST: /todo
+        // POST: /ToDo
         /// <summary>
         /// Creates a new To Do item
         /// </summary>T
@@ -46,26 +46,26 @@ namespace Todo.Api.Features.v1
         [HttpPost(ApiRoutes.ToDo.Create)]
         [ProducesResponseType(typeof(SuccessResponse<RecordsCreatedResponse>), 201)]
         [ProducesResponseType(typeof(ErrorResponse), 400)]
-        public async Task<IActionResult> Create(CreateTodoItemRequest request)
+        public async Task<IActionResult> Create(CreateToDoItemRequest request)
         {
-            var result = await Send<CreateTodoItemCommand>(request);
+            var result = await Send<CreateToDoItemCommand>(request);
             return result.ToCreatedResult("ToDo", nameof(Get));
         }
 
-        // PUT: /todo/5
+        // PUT: /ToDo/5
         /// <summary>
         /// Update an existing To Do item
         /// </summary>
         /// <param name="command"></param>
         /// <returns></returns>
         [HttpPut(ApiRoutes.ToDo.Update)]
-        public async Task<IActionResult> Update(UpdateTodoItemRequest request)
+        public async Task<IActionResult> Update(UpdateToDoItemRequest request)
         {
-            var result = await Send<UpdateTodoItemCommand>(request);
+            var result = await Send<UpdateToDoItemCommand>(request);
             return result.ToUpdatedResult();
         }
 
-        // DELETE: /todo/5
+        // DELETE: /ToDo/5
         /// <summary>
         /// Delete a To Do item
         /// </summary>
@@ -73,7 +73,7 @@ namespace Todo.Api.Features.v1
         [HttpDelete(ApiRoutes.ToDo.Delete)]
         public async Task<IActionResult> Delete(int id)
         {
-            var result = await Mediator.Send(new DeleteTodoItemCommand { Id = id });
+            var result = await Mediator.Send(new DeleteToDoItemCommand { Id = id });
             return result.ToDeletedResult();
         }
     }

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using Todo.Infrastructure.Identity;
-using Todo.Infrastructure.Identity.Models;
+using ToDo.Infrastructure.Identity;
+using ToDo.Infrastructure.Identity.Models;
 
-namespace Specs.Library.Todo.Builders.ObjectMothers
+namespace Specs.Library.ToDo.Builders.ObjectMothers
 {
     public class Users
     {

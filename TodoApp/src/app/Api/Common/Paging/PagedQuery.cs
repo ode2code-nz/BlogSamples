@@ -1,7 +1,7 @@
 ﻿using FluentResults;
-using Todo.Domain.Common.FluentResult;
+using ToDo.Domain.Common.FluentResult;
 
-namespace Todo.Api.Common.Paging
+namespace ToDo.Api.Common.Paging
 {
     public class PagedQuery
     {

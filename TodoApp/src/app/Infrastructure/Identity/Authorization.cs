@@ -6,7 +6,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace Todo.Infrastructure.Identity
+namespace ToDo.Infrastructure.Identity
 {
     public class Authorization
     {

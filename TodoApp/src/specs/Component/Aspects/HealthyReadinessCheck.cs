@@ -1,10 +1,10 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Todo.Infrastructure.HealthChecks;
-using Specs.Library.Todo.Drivers.Api;
+using ToDo.Infrastructure.HealthChecks;
+using Specs.Library.ToDo.Drivers.Api;
 
-namespace Specs.Component.Todo.Aspects
+namespace Specs.Component.ToDo.Aspects
 {
     public class HealthyReadinessCheck : ScenarioFor<AsyncApiDriver, DevOpsStory>
     {

@@ -1,9 +1,9 @@
 ﻿using System;
-using Todo.Api.Common.Mappings;
-using Todo.Domain.Model.MasterTradingAgreements;
-using Todo.SharedModels.v1.MasterTradingAgreements;
+using ToDo.Api.Common.Mappings;
+using ToDo.Domain.Model.MasterTradingAgreements;
+using ToDo.SharedModels.v1.MasterTradingAgreements;
 
-namespace Todo.Api.Features.v1.MasterTradingAgreements
+namespace ToDo.Api.Features.v1.MasterTradingAgreements
 {
     public class ContractScheduleDto : IMapFrom<ContractSchedule>, IMapToAndFrom<ContractScheduleResponse>
     {

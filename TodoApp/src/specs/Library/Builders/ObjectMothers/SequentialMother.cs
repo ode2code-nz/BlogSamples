@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using TestStack.Dossier.DataSources.Picking;
 
-namespace Specs.Library.Todo.Builders.ObjectMothers
+namespace Specs.Library.ToDo.Builders.ObjectMothers
 {
     public class SequentialMother
     {

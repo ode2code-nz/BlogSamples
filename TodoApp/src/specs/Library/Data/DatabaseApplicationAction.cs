@@ -1,7 +1,7 @@
 ﻿using Specify.Configuration;
 using System;
 
-namespace Specs.Library.Todo.Data
+namespace Specs.Library.ToDo.Data
 {
     public class DatabaseApplicationAction : IPerApplicationAction
     {

@@ -1,6 +1,6 @@
-﻿namespace Todo.SharedModels.v1.ToDoItems
+﻿namespace ToDo.SharedModels.v1.ToDoItems
 {
-    public class CreateTodoItemRequest 
+    public class CreateToDoItemRequest 
     {
         public string Title { get; set; }
         public string Description { get; set; }

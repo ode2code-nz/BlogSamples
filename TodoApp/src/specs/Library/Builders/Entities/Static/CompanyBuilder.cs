@@ -1,7 +1,7 @@
-﻿using Todo.Domain.Model.StaticData;
+﻿using ToDo.Domain.Model.StaticData;
 using TestStack.Dossier;
 
-namespace Specs.Library.Todo.Builders.Entities.Static
+namespace Specs.Library.ToDo.Builders.Entities.Static
 {
     public class CompanyBuilder : TestDataBuilder<Company, CompanyBuilder>
     {

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
-namespace Todo.Infrastructure.Identity.Models
+namespace ToDo.Infrastructure.Identity.Models
 {
     public class AuthenticationModel
     {

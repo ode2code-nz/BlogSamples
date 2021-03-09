@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
-namespace Todo.Api.Common.Web
+namespace ToDo.Api.Common.Web
 {
     public class ApiExceptionMiddleware
     {

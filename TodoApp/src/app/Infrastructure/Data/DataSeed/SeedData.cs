@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Todo.Domain.Model.StaticData;
-using Todo.Infrastructure.Identity;
+using ToDo.Domain.Model.StaticData;
+using ToDo.Infrastructure.Identity;
 
-namespace Todo.Infrastructure.Data.DataSeed
+namespace ToDo.Infrastructure.Data.DataSeed
 {
     public static class StaticDataSeed
     {

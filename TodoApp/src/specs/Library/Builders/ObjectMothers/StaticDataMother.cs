@@ -1,7 +1,7 @@
-﻿using Todo.Domain.Model.StaticData;
-using Specs.Library.Todo.Builders.Entities.Static;
+﻿using ToDo.Domain.Model.StaticData;
+using Specs.Library.ToDo.Builders.Entities.Static;
 
-namespace Specs.Library.Todo.Builders.ObjectMothers
+namespace Specs.Library.ToDo.Builders.ObjectMothers
 {
     public class StaticDataMother
     {

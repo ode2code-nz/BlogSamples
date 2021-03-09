@@ -7,13 +7,13 @@ using Microsoft.AspNetCore.TestHost;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Todo.Api;
-using Todo.Infrastructure;
-using Todo.Infrastructure.Ioc;
-using Todo.Infrastructure.Logging;
+using ToDo.Api;
+using ToDo.Infrastructure;
+using ToDo.Infrastructure.Ioc;
+using ToDo.Infrastructure.Logging;
 using Serilog;
 
-namespace Specs.Library.Todo
+namespace Specs.Library.ToDo
 {
     public static class TestSettings
     {

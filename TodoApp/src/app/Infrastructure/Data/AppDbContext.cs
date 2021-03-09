@@ -6,14 +6,14 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Logging;
-using Todo.Domain.Model.MasterTradingAgreements;
-using Todo.Domain.Model.StaticData;
-using Todo.Domain.Model.ToDos;
-using Todo.Infrastructure.Data.DataSeed;
-using Todo.Infrastructure.Identity;
-using Todo.Infrastructure.Interfaces;
+using ToDo.Domain.Model.MasterTradingAgreements;
+using ToDo.Domain.Model.StaticData;
+using ToDo.Domain.Model.ToDos;
+using ToDo.Infrastructure.Data.DataSeed;
+using ToDo.Infrastructure.Identity;
+using ToDo.Infrastructure.Interfaces;
 
-namespace Todo.Infrastructure.Data
+namespace ToDo.Infrastructure.Data
 {
     public class AppDbContext : IdentityDbContext<ApplicationUser>, IUnitOfWork
     {

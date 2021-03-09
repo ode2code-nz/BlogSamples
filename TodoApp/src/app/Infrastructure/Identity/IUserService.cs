@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
-using Todo.Infrastructure.Identity.Models;
+using ToDo.Infrastructure.Identity.Models;
 
-namespace Todo.Infrastructure.Identity
+namespace ToDo.Infrastructure.Identity
 {
     public interface IUserService
     {

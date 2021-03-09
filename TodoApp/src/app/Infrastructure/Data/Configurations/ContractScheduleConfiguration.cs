@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Todo.Domain.Model.MasterTradingAgreements;
+using ToDo.Domain.Model.MasterTradingAgreements;
 
-namespace Todo.Infrastructure.Data.Configurations
+namespace ToDo.Infrastructure.Data.Configurations
 {
     public class ContractScheduleConfiguration : IEntityTypeConfiguration<ContractSchedule>
     {

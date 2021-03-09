@@ -5,7 +5,7 @@ using Serilog.Events;
 using Serilog.Exceptions;
 using Serilog.Formatting.Compact;
 
-namespace Todo.Infrastructure.Logging
+namespace ToDo.Infrastructure.Logging
 {
     public static class LoggingHelper
     {
@@ -17,7 +17,7 @@ namespace Todo.Infrastructure.Logging
                 // Filter out ASP.NET Core infrastructure logs that are Information and below
                 .MinimumLevel.Override("Microsoft.AspNetCore", LogEventLevel.Warning) // see warnings and errors from the framework, but not informational log events
                 .Enrich.FromLogContext()
-                .Enrich.WithProperty("ApplicationName", "Todo.Api")
+                .Enrich.WithProperty("ApplicationName", "ToDo.Api")
                 .Enrich.WithMachineName()
                // .Enrich.WithEnvironmentName() why isn't this working. Should come
                 .Enrich.WithExceptionDetails()

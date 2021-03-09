@@ -3,11 +3,11 @@ using System.Net;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
-using Todo.Api.Common.Paging;
-using Todo.Infrastructure.Identity.Models;
-using Specs.Library.Todo.Builders;
+using ToDo.Api.Common.Paging;
+using ToDo.Infrastructure.Identity.Models;
+using Specs.Library.ToDo.Builders;
 
-namespace Specs.Library.Todo.Drivers.Api
+namespace Specs.Library.ToDo.Drivers.Api
 {
     public class AsyncApiDriver
     {

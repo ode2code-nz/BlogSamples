@@ -4,10 +4,10 @@ using System.Threading.Tasks;
 using FluentResults;
 using FluentValidation;
 using MediatR;
-using Todo.Api.Common.Validation;
-using Todo.Domain.Common.FluentResult;
+using ToDo.Api.Common.Validation;
+using ToDo.Domain.Common.FluentResult;
 
-namespace Specs.Library.Todo.Builders.ObjectMothers
+namespace Specs.Library.ToDo.Builders.ObjectMothers
 {
     public class Stubs
     {

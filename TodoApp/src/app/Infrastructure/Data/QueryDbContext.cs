@@ -1,10 +1,10 @@
 ﻿using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using Todo.Domain.Common;
-using Todo.Domain.Model.ToDos;
-using Todo.Infrastructure.Interfaces;
+using ToDo.Domain.Common;
+using ToDo.Domain.Model.ToDos;
+using ToDo.Infrastructure.Interfaces;
 
-namespace Todo.Infrastructure.Data
+namespace ToDo.Infrastructure.Data
 {
     public class QueryDbContext : IQueryDb
     {

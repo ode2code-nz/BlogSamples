@@ -2,7 +2,7 @@
 using System.Linq;
 using FluentResults;
 
-namespace Todo.Domain.Common.FluentResult
+namespace ToDo.Domain.Common.FluentResult
 {
     public static class ResultExtensions
     {

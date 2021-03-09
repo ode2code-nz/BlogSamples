@@ -1,7 +1,7 @@
 ﻿using System.Data.Common;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace Specs.Integration.Todo.Infrastructure.Persistence
+namespace Specs.Integration.ToDo.Infrastructure.Persistence
 {
     public class TransientFailureCausingCommandInterceptor : DbCommandInterceptor
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Todo.SharedModels.v1.MasterTradingAgreements
+namespace ToDo.SharedModels.v1.MasterTradingAgreements
 {
     public class UpdateMasterTradingAgreementRequest
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.Hosting;
 
-namespace Todo.Api.Common.Web
+namespace ToDo.Api.Common.Web
 {
     public static class HostingEnvironmentExtensions
     {

@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Todo.SharedModels.v1.Responses;
+using ToDo.SharedModels.v1.Responses;
 
-namespace Todo.Api.Features.v1
+namespace ToDo.Api.Features.v1
 {
     [Authorize]
     public class SecuredController : ApiController

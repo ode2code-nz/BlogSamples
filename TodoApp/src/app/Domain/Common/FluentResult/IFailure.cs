@@ -1,4 +1,4 @@
-﻿namespace Todo.Domain.Common.FluentResult
+﻿namespace ToDo.Domain.Common.FluentResult
 {
     public interface IFailure
     {

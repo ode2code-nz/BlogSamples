@@ -6,17 +6,17 @@ using FluentResults;
 using FluentValidation;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Todo.Api.Common.Mappings;
-using Todo.Api.Common.Validation;
-using Todo.Domain.Abstractions;
-using Todo.Domain.Common.FluentResult;
-using Todo.Domain.Model;
-using Todo.Domain.Model.MasterTradingAgreements;
-using Todo.Domain.Model.StaticData;
-using Todo.Infrastructure.Data;
-using Todo.SharedModels.v1.MasterTradingAgreements;
+using ToDo.Api.Common.Mappings;
+using ToDo.Api.Common.Validation;
+using ToDo.Domain.Abstractions;
+using ToDo.Domain.Common.FluentResult;
+using ToDo.Domain.Model;
+using ToDo.Domain.Model.MasterTradingAgreements;
+using ToDo.Domain.Model.StaticData;
+using ToDo.Infrastructure.Data;
+using ToDo.SharedModels.v1.MasterTradingAgreements;
 
-namespace Todo.Api.Features.v1.MasterTradingAgreements
+namespace ToDo.Api.Features.v1.MasterTradingAgreements
 {
     public class CreateMasterTradingAgreementCommand : CommandBase, IMapFrom<CreateMasterTradingAgreementRequest>
     {

@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using Specs.Library.Todo.Helpers;
+using Specs.Library.ToDo.Helpers;
 
-namespace Specs.Integration.Todo
+namespace Specs.Integration.ToDo
 {
     /// <summary>
     /// The base class for scenarios without a story (normally unit test scenarios).

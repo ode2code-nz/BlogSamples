@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Todo.SharedModels.v1.MasterTradingAgreements
+namespace ToDo.SharedModels.v1.MasterTradingAgreements
 {
     public class ContractScheduleResponse
     {

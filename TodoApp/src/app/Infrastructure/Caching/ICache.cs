@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Todo.Infrastructure.Caching
+namespace ToDo.Infrastructure.Caching
 {
     public interface ICache
     {

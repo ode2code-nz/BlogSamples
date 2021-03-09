@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using Todo.Domain.Model.StaticData;
+using ToDo.Domain.Model.StaticData;
 
-namespace Todo.Infrastructure.Data.Configurations.StaticData
+namespace ToDo.Infrastructure.Data.Configurations.StaticData
 {
     public class LocationConfiguration : IEntityTypeConfiguration<Location>
     {

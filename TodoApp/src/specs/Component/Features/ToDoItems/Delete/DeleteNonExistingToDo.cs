@@ -1,16 +1,16 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Todo.Api.Features;
-using Specs.Library.Todo.Drivers.Api;
+using ToDo.Api.Features;
+using Specs.Library.ToDo.Drivers.Api;
 
-namespace Specs.Component.Todo.Features.ToDoItems.Delete
+namespace Specs.Component.ToDo.Features.ToDoItems.Delete
 {
     public class DeleteNonExistingToDo : ScenarioFor<AsyncApiDriver, ToDoStory>
     {
         private ApiResponse _result;
 
-        public async Task When_I_attempt_to_delete_a_todo_that_does_not_exist()
+        public async Task When_I_attempt_to_delete_a_ToDo_that_does_not_exist()
         {
             _result = await SUT.DeleteAsync(ApiRoutes.ToDo.DeleteFor(99));
         }

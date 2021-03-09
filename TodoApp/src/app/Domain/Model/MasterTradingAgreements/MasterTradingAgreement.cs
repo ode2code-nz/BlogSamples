@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using Todo.Domain.Common;
-using Todo.Domain.Model.StaticData;
+using ToDo.Domain.Common;
+using ToDo.Domain.Model.StaticData;
 
-namespace Todo.Domain.Model.MasterTradingAgreements
+namespace ToDo.Domain.Model.MasterTradingAgreements
 {
     public class MasterTradingAgreement : AggregateRoot
     {

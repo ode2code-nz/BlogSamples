@@ -1,12 +1,12 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Todo.Api.Features;
-using Specs.Component.Todo.Features.ToDoItems;
-using Specs.Library.Todo.Builders;
-using Specs.Library.Todo.Drivers.Api;
+using ToDo.Api.Features;
+using Specs.Component.ToDo.Features.ToDoItems;
+using Specs.Library.ToDo.Builders;
+using Specs.Library.ToDo.Drivers.Api;
 
-namespace Specs.Component.Todo.Features.Secured
+namespace Specs.Component.ToDo.Features.Secured
 {
     public class UnauthenticatedRequest : ScenarioFor<AsyncApiDriver, ToDoStory>
     {

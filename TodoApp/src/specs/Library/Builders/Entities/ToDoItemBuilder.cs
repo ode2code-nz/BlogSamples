@@ -1,8 +1,8 @@
-﻿using Todo.Domain.Model.ToDos;
+﻿using ToDo.Domain.Model.ToDos;
 using TestStack.Dossier;
 using TestStack.Dossier.Lists;
 
-namespace Specs.Library.Todo.Builders.Entities
+namespace Specs.Library.ToDo.Builders.Entities
 {
     public class ToDoItemBuilder : TestDataBuilder<ToDoItem, ToDoItemBuilder>
     {

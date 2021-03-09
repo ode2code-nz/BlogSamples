@@ -6,9 +6,9 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Text;
 using Newtonsoft.Json;
-using Todo.SharedModels.v1.Responses;
+using ToDo.SharedModels.v1.Responses;
 
-namespace Specs.Library.Todo.Drivers.Api
+namespace Specs.Library.ToDo.Drivers.Api
 {
     public class ApiResponse<T> : ApiResponse
     {

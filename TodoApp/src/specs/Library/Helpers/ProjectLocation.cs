@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace Specs.Library.Todo.Helpers
+namespace Specs.Library.ToDo.Helpers
 {
     public class ProjectLocation 
     {

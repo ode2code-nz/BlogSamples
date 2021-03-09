@@ -2,10 +2,10 @@
 using System.Linq;
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
-using Todo.Api.Common.Paging;
+using ToDo.Api.Common.Paging;
 using static System.Linq.Expressions.Expression;
 
-namespace Todo.Api.Common.Extensions
+namespace ToDo.Api.Common.Extensions
 {
     public static class QueryableExtensions
     {

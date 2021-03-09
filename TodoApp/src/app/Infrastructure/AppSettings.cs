@@ -1,4 +1,4 @@
-﻿namespace Todo.Infrastructure
+﻿namespace ToDo.Infrastructure
 {
     public class AppSettings
     {

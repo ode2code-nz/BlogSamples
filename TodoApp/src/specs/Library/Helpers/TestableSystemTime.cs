@@ -1,7 +1,7 @@
 ﻿using System;
-using Todo.Domain.Common;
+using ToDo.Domain.Common;
 
-namespace Specs.Library.Todo.Helpers
+namespace Specs.Library.ToDo.Helpers
 {
     public class TestableSystemTime : IDisposable
     {

@@ -1,6 +1,6 @@
-﻿using Todo.Domain.Common;
+﻿using ToDo.Domain.Common;
 
-namespace Todo.Domain.Model.StaticData
+namespace ToDo.Domain.Model.StaticData
 {
     public class Location : Entity
     {

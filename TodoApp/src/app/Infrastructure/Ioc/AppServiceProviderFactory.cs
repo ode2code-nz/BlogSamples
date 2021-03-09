@@ -3,7 +3,7 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Todo.Infrastructure.Ioc
+namespace ToDo.Infrastructure.Ioc
 {
     /// <summary>
     /// Configures IoC containers - Autofac container and built-in service collection.

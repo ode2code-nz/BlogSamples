@@ -1,15 +1,15 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Todo.Api.Features;
-using Todo.Domain.Model.MasterTradingAgreements;
-using Todo.SharedModels.v1.Responses;
-using Todo.SharedModels.v1.MasterTradingAgreements;
-using Specs.Library.Todo.Drivers.Api;
-using Specs.Library.Todo.Extensions;
+using ToDo.Api.Features;
+using ToDo.Domain.Model.MasterTradingAgreements;
+using ToDo.SharedModels.v1.Responses;
+using ToDo.SharedModels.v1.MasterTradingAgreements;
+using Specs.Library.ToDo.Drivers.Api;
+using Specs.Library.ToDo.Extensions;
 using TestStack.Dossier;
 
-namespace Specs.Component.Todo.Features.MasterTradingAgreements.Create
+namespace Specs.Component.ToDo.Features.MasterTradingAgreements.Create
 {
     public class CreateInvalidMasterTradingAgreement : ScenarioFor<AsyncApiDriver, MasterTradingAgreementStory>
     {

@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using Todo.Infrastructure.Data;
+using ToDo.Infrastructure.Data;
 using Respawn;
 
-namespace Specs.Library.Todo.Data.SqlServer
+namespace Specs.Library.ToDo.Data.SqlServer
 {
     /// <summary>
     /// SQL Server database provider

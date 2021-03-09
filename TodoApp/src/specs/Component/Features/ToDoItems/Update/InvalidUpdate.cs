@@ -1,27 +1,27 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Todo.Api.Features;
-using Todo.Api.Features.v1.ToDoItems;
-using Todo.Domain.Model.ToDos;
-using Specs.Library.Todo.Builders.Entities;
-using Specs.Library.Todo.Data;
-using Specs.Library.Todo.Drivers.Api;
-using Specs.Library.Todo.Extensions;
+using ToDo.Api.Features;
+using ToDo.Api.Features.v1.ToDoItems;
+using ToDo.Domain.Model.ToDos;
+using Specs.Library.ToDo.Builders.Entities;
+using Specs.Library.ToDo.Data;
+using Specs.Library.ToDo.Drivers.Api;
+using Specs.Library.ToDo.Extensions;
 using TestStack.Dossier;
 
-namespace Specs.Component.Todo.Features.ToDoItems.Update
+namespace Specs.Component.ToDo.Features.ToDoItems.Update
 {
     public class InvalidUpdate : ScenarioFor<AsyncApiDriver, ToDoStory>
     {
         private ApiResponse _result;
         private ToDoItem _existingItem;
-        private UpdateTodoItemCommand _updates;
+        private UpdateToDoItemCommand _updates;
 
-        public void Given_I_have_made_invalid_changes_to_an_existing_todo()
+        public void Given_I_have_made_invalid_changes_to_an_existing_ToDo()
         {
             _existingItem = new ToDoItemBuilder().Persist();
-            _updates = Builder<UpdateTodoItemCommand>.CreateNew()
+            _updates = Builder<UpdateToDoItemCommand>.CreateNew()
                 .Set(x => x.Title, string.Empty)
                 .Set(x => x.Id, _existingItem.Id);
         }

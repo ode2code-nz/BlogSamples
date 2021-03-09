@@ -1,6 +1,6 @@
-﻿using Todo.Infrastructure.Interfaces;
+﻿using ToDo.Infrastructure.Interfaces;
 
-namespace Specs.Library.Todo.Identity
+namespace Specs.Library.ToDo.Identity
 {
     public class TestCurrentUserService : ICurrentUserService
     {

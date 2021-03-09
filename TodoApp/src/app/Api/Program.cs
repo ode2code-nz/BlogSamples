@@ -1,11 +1,11 @@
 using System;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
-using Todo.Infrastructure.Ioc;
-using Todo.Infrastructure.Logging;
+using ToDo.Infrastructure.Ioc;
+using ToDo.Infrastructure.Logging;
 using Serilog;
 
-namespace Todo.Api
+namespace ToDo.Api
 {
     public class Program
     {

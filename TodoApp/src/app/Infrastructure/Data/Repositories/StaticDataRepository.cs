@@ -1,10 +1,10 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Todo.Domain.Abstractions;
-using Todo.Domain.Model.StaticData;
+using ToDo.Domain.Abstractions;
+using ToDo.Domain.Model.StaticData;
 
-namespace Todo.Infrastructure.Data.Repositories
+namespace ToDo.Infrastructure.Data.Repositories
 {
     public class StaticDataRepository : IStaticDataRepository
     {

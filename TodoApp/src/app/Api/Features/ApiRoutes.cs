@@ -1,4 +1,4 @@
-﻿namespace Todo.Api.Features
+﻿namespace ToDo.Api.Features
 {
     public static class ApiRoutes
     {
@@ -10,11 +10,11 @@
 
         public static class ToDo
         {
-            public const string Get = Base + "/todo/{id}";
-            public const string GetAll = Base + "/todo";
-            public const string Create = Base + "/todo";
-            public const string Update = Base + "/todo";
-            public const string Delete = Base + "/todo/{id}";
+            public const string Get = Base + "/ToDo/{id}";
+            public const string GetAll = Base + "/ToDo";
+            public const string Create = Base + "/ToDo";
+            public const string Update = Base + "/ToDo";
+            public const string Delete = Base + "/ToDo/{id}";
 
             public static string GetFor(int id) => Get.Replace("{id}", id.ToString());
             public static string DeleteFor(int id) => Delete.Replace("{id}", id.ToString());

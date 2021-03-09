@@ -13,14 +13,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using Todo.Api.Common.Behaviours;
-using Todo.Infrastructure;
-using Todo.Infrastructure.Data;
-using Todo.Infrastructure.Identity;
-using Todo.Infrastructure.Logging;
+using ToDo.Api.Common.Behaviours;
+using ToDo.Infrastructure;
+using ToDo.Infrastructure.Data;
+using ToDo.Infrastructure.Identity;
+using ToDo.Infrastructure.Logging;
 using Swashbuckle.AspNetCore.Filters;
 
-namespace Todo.Api
+namespace ToDo.Api
 {
     public static class DependencyInjection
     {
@@ -57,7 +57,7 @@ namespace Todo.Api
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Todo Api",
+                    Title = "ToDo Api",
                     Version = "v1"
                 });
 

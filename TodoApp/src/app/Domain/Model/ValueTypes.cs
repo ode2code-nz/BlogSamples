@@ -1,4 +1,4 @@
-﻿namespace Todo.Domain.Model
+﻿namespace ToDo.Domain.Model
 {
     public static class ValueTypes
     {

@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using Todo.Domain.Common;
-using Todo.Infrastructure.Data;
-using Specs.Library.Todo.Helpers;
+using ToDo.Domain.Common;
+using ToDo.Infrastructure.Data;
+using Specs.Library.ToDo.Helpers;
 
-namespace Specs.Library.Todo.Data.SqlServer
+namespace Specs.Library.ToDo.Data.SqlServer
 {
     public class SqlDb : IDb
     {

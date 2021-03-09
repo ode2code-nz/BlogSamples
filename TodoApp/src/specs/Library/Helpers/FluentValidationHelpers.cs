@@ -5,7 +5,7 @@ using FluentValidation;
 using FluentValidation.Internal;
 using FluentValidation.Validators;
 
-namespace Specs.Library.Todo.Helpers
+namespace Specs.Library.ToDo.Helpers
 {
 	public static class FluentValidationHelpers
 	{

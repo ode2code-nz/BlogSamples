@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Todo.Domain.Common;
-using Todo.Domain.Core;
+using ToDo.Domain.Common;
+using ToDo.Domain.Core;
 
-namespace Todo.Domain.Model
+namespace ToDo.Domain.Model
 {
     public class DateRange : Range<DateTime>
     {

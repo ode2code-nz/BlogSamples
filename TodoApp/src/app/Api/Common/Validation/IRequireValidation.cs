@@ -1,4 +1,4 @@
-﻿namespace Todo.Api.Common.Validation
+﻿namespace ToDo.Api.Common.Validation
 {
     public interface IRequireValidation
     {

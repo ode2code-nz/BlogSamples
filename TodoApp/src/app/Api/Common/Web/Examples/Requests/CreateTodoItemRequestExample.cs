@@ -1,13 +1,13 @@
-using Todo.SharedModels.v1.ToDoItems;
+using ToDo.SharedModels.v1.ToDoItems;
 using Swashbuckle.AspNetCore.Filters;
 
-namespace Todo.Api.Common.Web.Examples.Requests
+namespace ToDo.Api.Common.Web.Examples.Requests
 {
-    public class CreateTodoItemRequestExample : IExamplesProvider<CreateTodoItemRequest>
+    public class CreateToDoItemRequestExample : IExamplesProvider<CreateToDoItemRequest>
     {
-        public CreateTodoItemRequest GetExamples()
+        public CreateToDoItemRequest GetExamples()
         {
-            return new CreateTodoItemRequest
+            return new CreateToDoItemRequest
             {
                 Title = "Run and Review Tests",
                 Description = "Make sure all the tests run and review what they are doing.",

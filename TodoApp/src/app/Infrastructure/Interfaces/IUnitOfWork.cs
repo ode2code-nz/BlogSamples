@@ -4,10 +4,10 @@ using System.Threading.Tasks;
 using FluentResults;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using Todo.Domain.Model.MasterTradingAgreements;
-using Todo.Domain.Model.ToDos;
+using ToDo.Domain.Model.MasterTradingAgreements;
+using ToDo.Domain.Model.ToDos;
 
-namespace Todo.Infrastructure.Interfaces
+namespace ToDo.Infrastructure.Interfaces
 {
     // This is used by Command Handlers in CQRS
     public interface IUnitOfWork

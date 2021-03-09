@@ -2,9 +2,9 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Todo.Infrastructure.Data;
+using ToDo.Infrastructure.Data;
 
-namespace Todo.Infrastructure.Migrations
+namespace ToDo.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot
@@ -185,7 +185,7 @@ namespace Todo.Infrastructure.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("Todo.Domain.Model.MasterTradingAgreements.ContractSchedule", b =>
+            modelBuilder.Entity("ToDo.Domain.Model.MasterTradingAgreements.ContractSchedule", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -220,7 +220,7 @@ namespace Todo.Infrastructure.Migrations
                     b.ToTable("ContractSchedule");
                 });
 
-            modelBuilder.Entity("Todo.Domain.Model.MasterTradingAgreements.MasterTradingAgreement", b =>
+            modelBuilder.Entity("ToDo.Domain.Model.MasterTradingAgreements.MasterTradingAgreement", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -250,7 +250,7 @@ namespace Todo.Infrastructure.Migrations
                     b.ToTable("MasterTradingAgreement");
                 });
 
-            modelBuilder.Entity("Todo.Domain.Model.StaticData.Company", b =>
+            modelBuilder.Entity("ToDo.Domain.Model.StaticData.Company", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -329,7 +329,7 @@ namespace Todo.Infrastructure.Migrations
                         });
                 });
 
-            modelBuilder.Entity("Todo.Domain.Model.StaticData.Location", b =>
+            modelBuilder.Entity("ToDo.Domain.Model.StaticData.Location", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -408,7 +408,7 @@ namespace Todo.Infrastructure.Migrations
                         });
                 });
 
-            modelBuilder.Entity("Todo.Domain.Model.ToDos.ToDoItem", b =>
+            modelBuilder.Entity("ToDo.Domain.Model.ToDos.ToDoItem", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -438,7 +438,7 @@ namespace Todo.Infrastructure.Migrations
                     b.ToTable("ToDoItem");
                 });
 
-            modelBuilder.Entity("Todo.Infrastructure.Identity.ApplicationUser", b =>
+            modelBuilder.Entity("ToDo.Infrastructure.Identity.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -570,7 +570,7 @@ namespace Todo.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Todo.Infrastructure.Identity.ApplicationUser", null)
+                    b.HasOne("ToDo.Infrastructure.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -579,7 +579,7 @@ namespace Todo.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Todo.Infrastructure.Identity.ApplicationUser", null)
+                    b.HasOne("ToDo.Infrastructure.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -594,7 +594,7 @@ namespace Todo.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Todo.Infrastructure.Identity.ApplicationUser", null)
+                    b.HasOne("ToDo.Infrastructure.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -603,26 +603,26 @@ namespace Todo.Infrastructure.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Todo.Infrastructure.Identity.ApplicationUser", null)
+                    b.HasOne("ToDo.Infrastructure.Identity.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("Todo.Domain.Model.MasterTradingAgreements.ContractSchedule", b =>
+            modelBuilder.Entity("ToDo.Domain.Model.MasterTradingAgreements.ContractSchedule", b =>
                 {
-                    b.HasOne("Todo.Domain.Model.StaticData.Location", "Location")
+                    b.HasOne("ToDo.Domain.Model.StaticData.Location", "Location")
                         .WithMany()
                         .HasForeignKey("LocationId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.HasOne("Todo.Domain.Model.MasterTradingAgreements.MasterTradingAgreement", "MasterTradingAgreement")
+                    b.HasOne("ToDo.Domain.Model.MasterTradingAgreements.MasterTradingAgreement", "MasterTradingAgreement")
                         .WithMany("ContractSchedules")
                         .HasForeignKey("MasterTradingAgreementId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.OwnsOne("Todo.Domain.Model.DateRange", "Duration", b1 =>
+                    b.OwnsOne("ToDo.Domain.Model.DateRange", "Duration", b1 =>
                         {
                             b1.Property<int>("ContractScheduleId")
                                 .ValueGeneratedOnAdd()
@@ -652,14 +652,14 @@ namespace Todo.Infrastructure.Migrations
                     b.Navigation("MasterTradingAgreement");
                 });
 
-            modelBuilder.Entity("Todo.Domain.Model.MasterTradingAgreements.MasterTradingAgreement", b =>
+            modelBuilder.Entity("ToDo.Domain.Model.MasterTradingAgreements.MasterTradingAgreement", b =>
                 {
-                    b.HasOne("Todo.Domain.Model.StaticData.Company", "Counterparty")
+                    b.HasOne("ToDo.Domain.Model.StaticData.Company", "Counterparty")
                         .WithMany()
                         .HasForeignKey("CounterpartyId")
                         .OnDelete(DeleteBehavior.Restrict);
 
-                    b.OwnsOne("Todo.Domain.Model.DateRange", "Duration", b1 =>
+                    b.OwnsOne("ToDo.Domain.Model.DateRange", "Duration", b1 =>
                         {
                             b1.Property<int>("MasterTradingAgreementId")
                                 .ValueGeneratedOnAdd()
@@ -687,9 +687,9 @@ namespace Todo.Infrastructure.Migrations
                     b.Navigation("Duration");
                 });
 
-            modelBuilder.Entity("Todo.Infrastructure.Identity.ApplicationUser", b =>
+            modelBuilder.Entity("ToDo.Infrastructure.Identity.ApplicationUser", b =>
                 {
-                    b.OwnsMany("Todo.Infrastructure.Identity.Entities.RefreshToken", "RefreshTokens", b1 =>
+                    b.OwnsMany("ToDo.Infrastructure.Identity.Entities.RefreshToken", "RefreshTokens", b1 =>
                         {
                             b1.Property<string>("ApplicationUserId")
                                 .HasColumnType("nvarchar(450)");
@@ -722,7 +722,7 @@ namespace Todo.Infrastructure.Migrations
                     b.Navigation("RefreshTokens");
                 });
 
-            modelBuilder.Entity("Todo.Domain.Model.MasterTradingAgreements.MasterTradingAgreement", b =>
+            modelBuilder.Entity("ToDo.Domain.Model.MasterTradingAgreements.MasterTradingAgreement", b =>
                 {
                     b.Navigation("ContractSchedules");
                 });

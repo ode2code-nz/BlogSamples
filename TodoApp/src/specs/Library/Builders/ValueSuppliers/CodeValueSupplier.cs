@@ -3,7 +3,7 @@ using TestStack.Dossier;
 using TestStack.Dossier.DataSources.Dictionaries;
 using TestStack.Dossier.DataSources.Picking;
 
-namespace Specs.Library.Todo.Builders.ValueSuppliers
+namespace Specs.Library.ToDo.Builders.ValueSuppliers
 {
     public class CodeValueSupplier : IAnonymousValueSupplier
     {

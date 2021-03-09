@@ -5,9 +5,9 @@ using FluentResults;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
-using Todo.Infrastructure.Interfaces;
+using ToDo.Infrastructure.Interfaces;
 
-namespace Todo.Api.Common.Behaviours
+namespace ToDo.Api.Common.Behaviours
 {
 public class SqlDatabaseBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>

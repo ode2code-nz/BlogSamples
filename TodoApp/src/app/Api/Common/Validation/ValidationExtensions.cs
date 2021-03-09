@@ -2,9 +2,9 @@
 using FluentResults;
 using FluentValidation;
 using FluentValidation.Results;
-using Todo.Domain.Common.FluentResult;
+using ToDo.Domain.Common.FluentResult;
 
-namespace Todo.Api.Common.Validation
+namespace ToDo.Api.Common.Validation
 {
     public static class ValidationExtensions
     {

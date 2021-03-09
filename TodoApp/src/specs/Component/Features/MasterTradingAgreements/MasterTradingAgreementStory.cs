@@ -1,6 +1,6 @@
 ﻿using Specify.Stories;
 
-namespace Specs.Component.Todo.Features.MasterTradingAgreements
+namespace Specs.Component.ToDo.Features.MasterTradingAgreements
 {
     public class MasterTradingAgreementStory : UserStory
     {

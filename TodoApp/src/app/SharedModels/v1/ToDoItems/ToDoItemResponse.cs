@@ -1,4 +1,4 @@
-﻿namespace Todo.SharedModels.v1.ToDoItems
+﻿namespace ToDo.SharedModels.v1.ToDoItems
 {
     public class ToDoItemResponse
     {

@@ -5,11 +5,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Todo.Domain.Abstractions;
-using Todo.SharedModels.v1.Responses;
-using Todo.SharedModels.v1.StaticData;
+using ToDo.Domain.Abstractions;
+using ToDo.SharedModels.v1.Responses;
+using ToDo.SharedModels.v1.StaticData;
 
-namespace Todo.Api.Features.v1
+namespace ToDo.Api.Features.v1
 {
     [Authorize]
     public class StaticDataController : ApiController

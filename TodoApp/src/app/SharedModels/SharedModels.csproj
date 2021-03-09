@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-	  <RootNamespace>Todo.SharedModels</RootNamespace>
-	  <AssemblyName>Todo.SharedModels</AssemblyName>
+	  <RootNamespace>ToDo.SharedModels</RootNamespace>
+	  <AssemblyName>ToDo.SharedModels</AssemblyName>
   </PropertyGroup>
 
 </Project>

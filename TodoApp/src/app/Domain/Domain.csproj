@@ -2,8 +2,8 @@
 
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
-		<RootNamespace>Todo.Domain</RootNamespace>
-		<AssemblyName>Todo.Domain</AssemblyName>
+		<RootNamespace>ToDo.Domain</RootNamespace>
+		<AssemblyName>ToDo.Domain</AssemblyName>
 	</PropertyGroup>
 
 	<ItemGroup>

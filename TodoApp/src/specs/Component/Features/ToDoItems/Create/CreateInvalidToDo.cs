@@ -1,22 +1,22 @@
 ﻿using System.Threading.Tasks;
 using FluentAssertions;
-using Todo.Api.Features;
-using Todo.Api.Features.v1.ToDoItems;
-using Todo.Domain.Model.ToDos;
-using Todo.SharedModels.v1.Responses;
-using Specs.Library.Todo.Drivers.Api;
-using Specs.Library.Todo.Extensions;
+using ToDo.Api.Features;
+using ToDo.Api.Features.v1.ToDoItems;
+using ToDo.Domain.Model.ToDos;
+using ToDo.SharedModels.v1.Responses;
+using Specs.Library.ToDo.Drivers.Api;
+using Specs.Library.ToDo.Extensions;
 
-namespace Specs.Component.Todo.Features.ToDoItems.Create
+namespace Specs.Component.ToDo.Features.ToDoItems.Create
 {
     public class CreateInvalidToDo : ScenarioFor<AsyncApiDriver, ToDoStory>
     {
         private ApiResponse<RecordsCreatedResponse> _result;
-        private CreateTodoItemCommand _command;
+        private CreateToDoItemCommand _command;
 
         public void Given_I_have_composed_an_invalid_new_ToDo()
         {
-            _command = new CreateTodoItemCommand();
+            _command = new CreateToDoItemCommand();
         }
 
         public async Task When_I_attempt_to_create_it()

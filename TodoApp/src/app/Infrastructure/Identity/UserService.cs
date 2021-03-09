@@ -5,11 +5,11 @@ using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Newtonsoft.Json;
-using Todo.Infrastructure.Data;
-using Todo.Infrastructure.Identity.Entities;
-using Todo.Infrastructure.Identity.Models;
+using ToDo.Infrastructure.Data;
+using ToDo.Infrastructure.Identity.Entities;
+using ToDo.Infrastructure.Identity.Models;
 
-namespace Todo.Infrastructure.Identity
+namespace ToDo.Infrastructure.Identity
 {
     public class UserService : IUserService
     {
@@ -239,7 +239,7 @@ namespace Todo.Infrastructure.Identity
             return _context.Users.Find(id);
         }
 
-        //TODO : Update User Details
-        //TODO : Remove User from Role 
+        //ToDo : Update User Details
+        //ToDo : Remove User from Role 
     }
 }

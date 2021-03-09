@@ -1,6 +1,6 @@
-﻿using Todo.Infrastructure.Data;
+﻿using ToDo.Infrastructure.Data;
 
-namespace Specs.Library.Todo.Data
+namespace Specs.Library.ToDo.Data
 {
     public interface IDbFactory
     {

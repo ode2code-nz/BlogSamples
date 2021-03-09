@@ -1,10 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal;
 using DbMigrator;
-using Todo.Infrastructure.Data;
+using ToDo.Infrastructure.Data;
 
 
-namespace Specs.Library.Todo.Data.SqlServer
+namespace Specs.Library.ToDo.Data.SqlServer
 {
     public class DbUpSqlDbFactory : EfSqlDbFactory
     {

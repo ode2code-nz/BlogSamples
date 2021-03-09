@@ -2,13 +2,13 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
-using Todo.Domain.Abstractions;
-using Todo.Infrastructure.Caching;
-using Todo.Infrastructure.Data;
-using Todo.Infrastructure.Data.Repositories;
-using Todo.Infrastructure.Interfaces;
+using ToDo.Domain.Abstractions;
+using ToDo.Infrastructure.Caching;
+using ToDo.Infrastructure.Data;
+using ToDo.Infrastructure.Data.Repositories;
+using ToDo.Infrastructure.Interfaces;
 
-namespace Todo.Infrastructure
+namespace ToDo.Infrastructure
 {
     public static class DependencyInjection
     {

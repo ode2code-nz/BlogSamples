@@ -3,16 +3,16 @@ using System.Threading.Tasks;
 using FluentResults;
 using FluentValidation;
 using MediatR;
-using Todo.Api.Common.Mappings;
-using Todo.Api.Common.Validation;
-using Todo.Domain.Common.FluentResult;
-using Todo.Domain.Model.ToDos;
-using Todo.Infrastructure.Interfaces;
-using Todo.SharedModels.v1.ToDoItems;
+using ToDo.Api.Common.Mappings;
+using ToDo.Api.Common.Validation;
+using ToDo.Domain.Common.FluentResult;
+using ToDo.Domain.Model.ToDos;
+using ToDo.Infrastructure.Interfaces;
+using ToDo.SharedModels.v1.ToDoItems;
 
-namespace Todo.Api.Features.v1.ToDoItems
+namespace ToDo.Api.Features.v1.ToDoItems
 {
-    public class UpdateTodoItemCommand : CommandBase, IMapFrom<UpdateTodoItemRequest>
+    public class UpdateToDoItemCommand : CommandBase, IMapFrom<UpdateToDoItemRequest>
     {
         public int Id { get; set; }
 
@@ -22,9 +22,9 @@ namespace Todo.Api.Features.v1.ToDoItems
         public bool IsDone { get; set; }
     }
 
-    public class UpdateTodoItemCommandValidator : AbstractValidator<UpdateTodoItemCommand>
+    public class UpdateToDoItemCommandValidator : AbstractValidator<UpdateToDoItemCommand>
     {
-        public UpdateTodoItemCommandValidator()
+        public UpdateToDoItemCommandValidator()
         {
             RuleFor(v => v.Title)
                 .MaximumLength(200)
@@ -42,16 +42,16 @@ namespace Todo.Api.Features.v1.ToDoItems
         }
     }
 
-    public class UpdateTodoItemCommandHandler : IRequestHandler<UpdateTodoItemCommand, Result>
+    public class UpdateToDoItemCommandHandler : IRequestHandler<UpdateToDoItemCommand, Result>
     {
         private readonly IUnitOfWork _context;
 
-        public UpdateTodoItemCommandHandler(IUnitOfWork context)
+        public UpdateToDoItemCommandHandler(IUnitOfWork context)
         {
             _context = context;
         }
 
-        public async Task<Result> Handle(UpdateTodoItemCommand request, CancellationToken cancellationToken)
+        public async Task<Result> Handle(UpdateToDoItemCommand request, CancellationToken cancellationToken)
         {
             var entity = await _context.ToDoItems.FindAsync(request.Id);
 

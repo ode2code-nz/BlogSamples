@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Todo.Api.Common.Mappings
+namespace ToDo.Api.Common.Mappings
 {
     public interface IMapToAndFrom<T>
     {

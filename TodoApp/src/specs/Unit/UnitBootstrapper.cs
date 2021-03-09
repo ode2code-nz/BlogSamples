@@ -2,7 +2,7 @@
 using Specify.Configuration;
 using TestStack.BDDfy.Configuration;
 
-namespace Specs.Unit.Todo
+namespace Specs.Unit.ToDo
 {
     /// <summary>
     /// The startup class to configure Specify with the default DryIoc container. 
@@ -12,9 +12,9 @@ namespace Specs.Unit.Todo
     {
         public UnitBootstrapper()
         {
-            HtmlReport.ReportHeader = "Todo";
+            HtmlReport.ReportHeader = "ToDo";
             HtmlReport.ReportDescription = "Unit Specs";
-            HtmlReport.OutputFileName = "Todo-UnitSpecs.html";
+            HtmlReport.OutputFileName = "ToDo-UnitSpecs.html";
             Configurator.BatchProcessors.HtmlReport.Disable();
         }
 

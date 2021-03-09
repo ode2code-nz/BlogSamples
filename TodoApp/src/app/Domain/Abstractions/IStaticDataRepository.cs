@@ -1,8 +1,8 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
-using Todo.Domain.Model.StaticData;
+using ToDo.Domain.Model.StaticData;
 
-namespace Todo.Domain.Abstractions
+namespace ToDo.Domain.Abstractions
 {
     public interface IStaticDataRepository
     {

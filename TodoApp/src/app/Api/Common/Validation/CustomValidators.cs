@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using Todo.Domain.Model.ToDos;
+using ToDo.Domain.Model.ToDos;
 
-namespace Todo.Api.Common.Validation
+namespace ToDo.Api.Common.Validation
 {
     public static class CustomValidators
     {

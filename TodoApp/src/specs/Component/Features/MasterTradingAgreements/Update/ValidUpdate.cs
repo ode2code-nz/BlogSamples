@@ -4,15 +4,15 @@ using System.Threading.Tasks;
 using FluentAssertions;
 using Mapster;
 using Microsoft.EntityFrameworkCore;
-using Todo.Api.Features;
-using Todo.Domain.Model.MasterTradingAgreements;
-using Todo.SharedModels.v1.MasterTradingAgreements;
+using ToDo.Api.Features;
+using ToDo.Domain.Model.MasterTradingAgreements;
+using ToDo.SharedModels.v1.MasterTradingAgreements;
 using Specify;
-using Specs.Library.Todo.Builders.Entities;
-using Specs.Library.Todo.Data;
-using Specs.Library.Todo.Drivers.Api;
+using Specs.Library.ToDo.Builders.Entities;
+using Specs.Library.ToDo.Data;
+using Specs.Library.ToDo.Drivers.Api;
 
-namespace Specs.Component.Todo.Features.MasterTradingAgreements.Update
+namespace Specs.Component.ToDo.Features.MasterTradingAgreements.Update
 {
     public class ValidUpdate : ScenarioFor<AsyncApiDriver, MasterTradingAgreementStory>
     {
@@ -21,7 +21,7 @@ namespace Specs.Component.Todo.Features.MasterTradingAgreements.Update
         private UpdateMasterTradingAgreementRequest _request;
         private const string UpdatedValue = "Updated";
 
-        public void Given_I_have_made_valid_changes_to_an_existing_todo()
+        public void Given_I_have_made_valid_changes_to_an_existing_ToDo()
         {
             _existingItem = new MasterTradingAgreementBuilder().Persist();
             _request = _existingItem

@@ -1,21 +1,21 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Todo.Api.Features;
-using Todo.Api.Features.v1.ToDoItems;
-using Specs.Library.Todo.Builders;
-using Specs.Library.Todo.Drivers.Api;
+using ToDo.Api.Features;
+using ToDo.Api.Features.v1.ToDoItems;
+using Specs.Library.ToDo.Builders;
+using Specs.Library.ToDo.Drivers.Api;
 
-namespace Specs.Component.Todo.Features.ToDoItems.Update
+namespace Specs.Component.ToDo.Features.ToDoItems.Update
 {
     public class UpdateNonExistent : ScenarioFor<AsyncApiDriver, ToDoStory>
     {
         private ApiResponse _result;
-        private UpdateTodoItemCommand _updates;
+        private UpdateToDoItemCommand _updates;
 
         public void Given_I_am_trying_to_edit_a_ToDo_that_does_not_exist()
         {
-            _updates = Get.InstanceOf<UpdateTodoItemCommand>();
+            _updates = Get.InstanceOf<UpdateToDoItemCommand>();
         }
 
         public async Task When_I_attempt_to_apply_changes_to_it()

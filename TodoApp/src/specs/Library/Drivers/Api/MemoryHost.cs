@@ -2,7 +2,7 @@
 using System.Net.Http;
 using Microsoft.AspNetCore.TestHost;
 
-namespace Specs.Library.Todo.Drivers.Api
+namespace Specs.Library.ToDo.Drivers.Api
 {
     public class MemoryHost : ITestHost
     {

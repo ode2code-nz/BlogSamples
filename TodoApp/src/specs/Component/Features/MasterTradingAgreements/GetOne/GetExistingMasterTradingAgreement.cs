@@ -1,14 +1,14 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Todo.Api.Features;
-using Todo.Domain.Model.MasterTradingAgreements;
-using Todo.SharedModels.v1.MasterTradingAgreements;
-using Specs.Library.Todo.Builders.Entities;
-using Specs.Library.Todo.Data;
-using Specs.Library.Todo.Drivers.Api;
+using ToDo.Api.Features;
+using ToDo.Domain.Model.MasterTradingAgreements;
+using ToDo.SharedModels.v1.MasterTradingAgreements;
+using Specs.Library.ToDo.Builders.Entities;
+using Specs.Library.ToDo.Data;
+using Specs.Library.ToDo.Drivers.Api;
 
-namespace Specs.Component.Todo.Features.MasterTradingAgreements.GetOne
+namespace Specs.Component.ToDo.Features.MasterTradingAgreements.GetOne
 {
     public class GetExistingMasterTradingAgreement : ScenarioFor<AsyncApiDriver, MasterTradingAgreementStory>
     {

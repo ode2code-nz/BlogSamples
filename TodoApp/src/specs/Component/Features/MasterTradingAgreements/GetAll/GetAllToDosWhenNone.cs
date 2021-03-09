@@ -2,11 +2,11 @@
 using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Todo.Api.Features;
-using Todo.SharedModels.v1.MasterTradingAgreements;
-using Specs.Library.Todo.Drivers.Api;
+using ToDo.Api.Features;
+using ToDo.SharedModels.v1.MasterTradingAgreements;
+using Specs.Library.ToDo.Drivers.Api;
 
-namespace Specs.Component.Todo.Features.MasterTradingAgreements.GetAll
+namespace Specs.Component.ToDo.Features.MasterTradingAgreements.GetAll
 {
     public class GetAllMasterTradingAgreementsWhenNone : ScenarioFor<AsyncApiDriver, MasterTradingAgreementStory>
     {

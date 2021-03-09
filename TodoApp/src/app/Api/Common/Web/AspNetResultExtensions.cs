@@ -3,10 +3,10 @@ using System.Linq;
 using AutoMapper;
 using FluentResults;
 using Microsoft.AspNetCore.Mvc;
-using Todo.Domain.Common.FluentResult;
-using Todo.SharedModels.v1.Responses;
+using ToDo.Domain.Common.FluentResult;
+using ToDo.SharedModels.v1.Responses;
 
-namespace Todo.Api.Common.Web
+namespace ToDo.Api.Common.Web
 {
     public static class AspNetResultExtensions
     {

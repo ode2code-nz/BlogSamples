@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Todo.Domain.Common;
-using Todo.Domain.Model;
+using ToDo.Domain.Common;
+using ToDo.Domain.Model;
 
-namespace Todo.Domain.Core
+namespace ToDo.Domain.Core
 {
     public static class DateTimeExtensions
     {

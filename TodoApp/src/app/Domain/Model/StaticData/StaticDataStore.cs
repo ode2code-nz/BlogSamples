@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Todo.Domain.Model.StaticData
+namespace ToDo.Domain.Model.StaticData
 {
     public class StaticDataStore
     {

@@ -6,7 +6,7 @@ namespace DbMigrator
     {
         static int Main(string connectionString, bool dropAndRebuildDatabase = false)
         {
-            connectionString ??= "Server=localhost,1433;Database=TodoDb-Test;Password=Password#01;Trusted_Connection=false;MultipleActiveResultSets=true";
+            connectionString ??= "Server=localhost,1433;Database=ToDoDb-Test;Password=Password#01;Trusted_Connection=false;MultipleActiveResultSets=true";
 
             var result = Db.Migrate(connectionString, dropAndRebuildDatabase);
 

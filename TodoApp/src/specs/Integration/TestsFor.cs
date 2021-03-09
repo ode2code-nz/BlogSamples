@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Specs.Integration.Todo
+namespace Specs.Integration.ToDo
 {
     [TestFixture]
     public abstract class TestsFor<TSut> : Specify.TestsFor<TSut> where TSut : class

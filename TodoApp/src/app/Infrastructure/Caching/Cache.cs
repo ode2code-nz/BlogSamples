@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
 using LazyCache;
-using Todo.Domain.Common;
+using ToDo.Domain.Common;
 using Serilog;
 
-namespace Todo.Infrastructure.Caching
+namespace ToDo.Infrastructure.Caching
 {
     public class Cache : ICache
     {

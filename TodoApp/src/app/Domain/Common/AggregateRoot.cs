@@ -1,4 +1,4 @@
-﻿namespace Todo.Domain.Common
+﻿namespace ToDo.Domain.Common
 {
     public abstract class AggregateRoot : Entity
     {

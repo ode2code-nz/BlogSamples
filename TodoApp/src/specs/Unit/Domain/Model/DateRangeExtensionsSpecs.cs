@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using FluentAssertions;
 using NUnit.Framework;
-using Todo.Domain.Model;
+using ToDo.Domain.Model;
 
-namespace Specs.Unit.Todo.Domain.Model
+namespace Specs.Unit.ToDo.Domain.Model
 {
     public class DateRangeExtensionsSpecs
     {

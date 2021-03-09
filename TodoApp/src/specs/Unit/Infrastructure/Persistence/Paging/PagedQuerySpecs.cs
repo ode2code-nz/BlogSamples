@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
-using Todo.Api.Common.Paging;
+using ToDo.Api.Common.Paging;
 using Specify;
 
-namespace Specs.Unit.Todo.Infrastructure.Persistence.Paging
+namespace Specs.Unit.ToDo.Infrastructure.Persistence.Paging
 {
     public class PagedQuerySpecs : ScenarioFor<PagedQuery>
     {

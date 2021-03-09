@@ -1,4 +1,4 @@
-﻿namespace Todo.Infrastructure.Interfaces
+﻿namespace ToDo.Infrastructure.Interfaces
 {
     public interface ICurrentUserService
     {

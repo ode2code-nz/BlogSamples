@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using Microsoft.AspNetCore.Identity;
-using Todo.Infrastructure.Identity.Entities;
+using ToDo.Infrastructure.Identity.Entities;
 
-namespace Todo.Infrastructure.Identity
+namespace ToDo.Infrastructure.Identity
 {
     public class ApplicationUser : IdentityUser
     {

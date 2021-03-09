@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 
-namespace Todo.Infrastructure.Identity.Entities
+namespace ToDo.Infrastructure.Identity.Entities
 {
     [Owned]
     public class RefreshToken

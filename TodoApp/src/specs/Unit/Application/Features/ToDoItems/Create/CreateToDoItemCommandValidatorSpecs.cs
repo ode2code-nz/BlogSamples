@@ -1,14 +1,14 @@
 ﻿using FluentValidation.TestHelper;
-using Todo.Api.Features.v1.ToDoItems;
-using Specs.Library.Todo.Extensions;
+using ToDo.Api.Features.v1.ToDoItems;
+using Specs.Library.ToDo.Extensions;
 
-namespace Specs.Unit.Todo.Application.Features.ToDoItems.Create
+namespace Specs.Unit.ToDo.Application.Features.ToDoItems.Create
 {
-    public class CreateToDoItemCommandValidatorSpecs: ScenarioFor<CreateTodoItemCommandValidator>
+    public class CreateToDoItemCommandValidatorSpecs: ScenarioFor<CreateToDoItemCommandValidator>
     {
         public void Setup()
         {
-            SUT = new CreateTodoItemCommandValidator();
+            SUT = new CreateToDoItemCommandValidator();
         }
 
         public void Then_should_have_Title_with_no_more_than_200_characters()

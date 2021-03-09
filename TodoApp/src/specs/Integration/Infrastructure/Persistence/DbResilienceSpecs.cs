@@ -3,15 +3,15 @@ using FluentAssertions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.DependencyInjection;
-using Todo.Domain.Model.ToDos;
-using Todo.Infrastructure.Data;
-using Todo.Infrastructure.Interfaces;
-using Specs.Library.Todo;
-using Specs.Library.Todo.Data;
-using Specs.Library.Todo.Identity;
+using ToDo.Domain.Model.ToDos;
+using ToDo.Infrastructure.Data;
+using ToDo.Infrastructure.Interfaces;
+using Specs.Library.ToDo;
+using Specs.Library.ToDo.Data;
+using Specs.Library.ToDo.Identity;
 using TestStack.Dossier;
 
-namespace Specs.Integration.Todo.Infrastructure.Persistence
+namespace Specs.Integration.ToDo.Infrastructure.Persistence
 {
     public class DatabasebRetrySucceeds : ScenarioFor<object>
     {

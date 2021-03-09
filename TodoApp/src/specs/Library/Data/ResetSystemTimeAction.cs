@@ -1,9 +1,9 @@
 ﻿using System;
-using Todo.Domain.Common;
+using ToDo.Domain.Common;
 using Specify;
 using Specify.Configuration;
 
-namespace Specs.Library.Todo.Data
+namespace Specs.Library.ToDo.Data
 {
     public class ResetSystemTimeAction : IPerScenarioAction
     {

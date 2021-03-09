@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 
-namespace Todo.SharedModels.v1.Responses
+namespace ToDo.SharedModels.v1.Responses
 {
     public class ErrorResponse
     {

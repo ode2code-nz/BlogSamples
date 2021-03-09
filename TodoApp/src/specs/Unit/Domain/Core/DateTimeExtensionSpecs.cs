@@ -3,11 +3,11 @@
 //using System.Collections.Generic;
 //using FluentAssertions;
 //using NUnit.Framework;
-//using Todo.Domain.Common;
-//using Todo.Domain.Core;
-//using Todo.Domain.Model;
+//using ToDo.Domain.Common;
+//using ToDo.Domain.Core;
+//using ToDo.Domain.Model;
 
-//namespace Specs.Unit.Todo.Domain.Core
+//namespace Specs.Unit.ToDo.Domain.Core
 //{
 //    public class DateTimeExtensionSpecs
 //    {

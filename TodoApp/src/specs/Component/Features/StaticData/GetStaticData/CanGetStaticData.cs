@@ -2,11 +2,11 @@
 using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Todo.Api.Features;
-using Todo.SharedModels.v1.StaticData;
-using Specs.Library.Todo.Drivers.Api;
+using ToDo.Api.Features;
+using ToDo.SharedModels.v1.StaticData;
+using Specs.Library.ToDo.Drivers.Api;
 
-namespace Specs.Component.Todo.Features.StaticData.GetStaticData
+namespace Specs.Component.ToDo.Features.StaticData.GetStaticData
 {
 
     public abstract class GetStaticData<T> : ScenarioFor<AsyncApiDriver, GetStaticDataStory> where T : StaticDataModel

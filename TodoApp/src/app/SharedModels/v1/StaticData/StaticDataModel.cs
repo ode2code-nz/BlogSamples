@@ -1,4 +1,4 @@
-﻿namespace Todo.SharedModels.v1.StaticData
+﻿namespace ToDo.SharedModels.v1.StaticData
 {
     public class StaticDataModel
     {

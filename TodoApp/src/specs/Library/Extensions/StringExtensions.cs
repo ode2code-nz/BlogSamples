@@ -2,7 +2,7 @@
 using System.Text;
 using System.Xml.Serialization;
 
-namespace Specs.Library.Todo.Extensions
+namespace Specs.Library.ToDo.Extensions
 {
     public static class StringExtensions
     {

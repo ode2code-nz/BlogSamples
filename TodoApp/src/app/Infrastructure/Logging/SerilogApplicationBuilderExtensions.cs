@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Serilog;
 
-namespace Todo.Infrastructure.Logging
+namespace ToDo.Infrastructure.Logging
 {
     public static class SerilogApplicationBuilderExtensions
     {

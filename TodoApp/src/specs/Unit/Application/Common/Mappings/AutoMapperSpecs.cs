@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using AutoMapper;
 using FastMember;
-using Todo.Api.Common;
-using Todo.Api.Common.Mappings;
-using Todo.Api.Features.v1.MasterTradingAgreements;
-using Specs.Library.Todo.Builders.Entities;
+using ToDo.Api.Common;
+using ToDo.Api.Common.Mappings;
+using ToDo.Api.Features.v1.MasterTradingAgreements;
+using Specs.Library.ToDo.Builders.Entities;
 
-namespace Specs.Unit.Todo.Application.Common.Mappings
+namespace Specs.Unit.ToDo.Application.Common.Mappings
 {
     public class AutoMapperSpecs : ScenarioFor<IMapper>
     {

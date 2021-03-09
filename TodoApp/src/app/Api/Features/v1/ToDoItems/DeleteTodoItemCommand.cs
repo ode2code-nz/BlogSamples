@@ -2,26 +2,26 @@
 using System.Threading.Tasks;
 using FluentResults;
 using MediatR;
-using Todo.Domain.Common.FluentResult;
-using Todo.Infrastructure.Interfaces;
+using ToDo.Domain.Common.FluentResult;
+using ToDo.Infrastructure.Interfaces;
 
-namespace Todo.Api.Features.v1.ToDoItems
+namespace ToDo.Api.Features.v1.ToDoItems
 {
-    public class DeleteTodoItemCommand : IRequest<Result>
+    public class DeleteToDoItemCommand : IRequest<Result>
     {
         public int Id { get; set; }
     }
 
-    public class DeleteTodoItemCommandHandler : IRequestHandler<DeleteTodoItemCommand, Result>
+    public class DeleteToDoItemCommandHandler : IRequestHandler<DeleteToDoItemCommand, Result>
     {
         private readonly IUnitOfWork _context;
 
-        public DeleteTodoItemCommandHandler(IUnitOfWork context)
+        public DeleteToDoItemCommandHandler(IUnitOfWork context)
         {
             _context = context;
         }
 
-        public async Task<Result> Handle(DeleteTodoItemCommand request, CancellationToken cancellationToken)
+        public async Task<Result> Handle(DeleteToDoItemCommand request, CancellationToken cancellationToken)
         {
             var entity = await _context.ToDoItems.FindAsync(request.Id);
 
