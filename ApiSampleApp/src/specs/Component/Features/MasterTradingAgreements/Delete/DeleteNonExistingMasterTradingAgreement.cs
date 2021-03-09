@@ -1,10 +1,10 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using ToDo.Api.Features;
-using Specs.Library.ToDo.Drivers.Api;
+using ApiSample.Api.Features;
+using Specs.Library.ApiSample.Drivers.Api;
 
-namespace Specs.Component.ToDo.Features.MasterTradingAgreements.Delete
+namespace Specs.Component.ApiSample.Features.MasterTradingAgreements.Delete
 {
     public class DeleteNonExistingMasterTradingAgreement : ScenarioFor<AsyncApiDriver, MasterTradingAgreementStory>
     {

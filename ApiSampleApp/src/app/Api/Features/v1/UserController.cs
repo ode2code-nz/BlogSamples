@@ -2,10 +2,10 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using ToDo.Infrastructure.Identity;
-using ToDo.Infrastructure.Identity.Models;
+using ApiSample.Infrastructure.Identity;
+using ApiSample.Infrastructure.Identity.Models;
 
-namespace ToDo.Api.Features.v1
+namespace ApiSample.Api.Features.v1
 {
     [Route("api/[controller]")]
     [ApiController]

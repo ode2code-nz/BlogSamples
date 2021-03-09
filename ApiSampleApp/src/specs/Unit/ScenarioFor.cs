@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using Specs.Library.ToDo.Helpers;
+using Specs.Library.ApiSample.Helpers;
 
-namespace Specs.Unit.ToDo
+namespace Specs.Unit.ApiSample
 {
     /// <summary>
     /// The base class for scenarios without a story (normally unit test scenarios).

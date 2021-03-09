@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ToDo.Domain.Model;
-using ToDo.Domain.Model.MasterTradingAgreements;
+using ApiSample.Domain.Model;
+using ApiSample.Domain.Model.MasterTradingAgreements;
 using TestStack.Dossier;
 using TestStack.Dossier.Lists;
-using static Specs.Library.ToDo.Builders.Get;
+using static Specs.Library.ApiSample.Builders.Get;
 
-namespace Specs.Library.ToDo.Builders.Entities
+namespace Specs.Library.ApiSample.Builders.Entities
 {
     public class MasterTradingAgreementBuilder : TestDataBuilder<MasterTradingAgreement, MasterTradingAgreementBuilder>
     {

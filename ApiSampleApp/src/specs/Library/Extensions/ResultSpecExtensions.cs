@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
 using FluentResults;
 
-namespace Specs.Library.ToDo.Extensions
+namespace Specs.Library.ApiSample.Extensions
 {
     public static class ResultSpecExtensions
     {

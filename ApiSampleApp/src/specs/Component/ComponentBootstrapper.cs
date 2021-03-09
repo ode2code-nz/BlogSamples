@@ -2,22 +2,22 @@
 using Microsoft.AspNetCore.TestHost;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
-using ToDo.Infrastructure.Data;
-using ToDo.Infrastructure.Interfaces;
+using ApiSample.Infrastructure.Data;
+using ApiSample.Infrastructure.Interfaces;
 using Specify.Autofac;
 using Specify.Configuration;
 using Specify.Mocks;
-using Specs.Library.ToDo;
-using Specs.Library.ToDo.Builders.ValueSuppliers;
-using Specs.Library.ToDo.Data;
-using Specs.Library.ToDo.Data.SqlServer;
-using Specs.Library.ToDo.Drivers.Api;
-using Specs.Library.ToDo.Extensions;
-using Specs.Library.ToDo.Identity;
+using Specs.Library.ApiSample;
+using Specs.Library.ApiSample.Builders.ValueSuppliers;
+using Specs.Library.ApiSample.Data;
+using Specs.Library.ApiSample.Data.SqlServer;
+using Specs.Library.ApiSample.Drivers.Api;
+using Specs.Library.ApiSample.Extensions;
+using Specs.Library.ApiSample.Identity;
 using TestStack.BDDfy.Configuration;
 using TestStack.Dossier;
 
-namespace Specs.Component.ToDo
+namespace Specs.Component.ApiSample
 {
     /// <summary>
     /// The startup class to configure Specify with the Autofac container. 

@@ -1,15 +1,15 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using ToDo.Api.Features;
-using ToDo.Api.Features.v1.ToDoItems;
-using ToDo.Domain.Model.ToDos;
-using Specs.Library.ToDo.Builders.Entities;
-using Specs.Library.ToDo.Data;
-using Specs.Library.ToDo.Drivers.Api;
+using ApiSample.Api.Features;
+using ApiSample.Api.Features.v1.ToDoItems;
+using ApiSample.Domain.Model.ToDos;
+using Specs.Library.ApiSample.Builders.Entities;
+using Specs.Library.ApiSample.Data;
+using Specs.Library.ApiSample.Drivers.Api;
 using TestStack.Dossier;
 
-namespace Specs.Component.ToDo.Features.ToDoItems.Update
+namespace Specs.Component.ApiSample.Features.ToDoItems.Update
 {
     public class ValidUpdate : ScenarioFor<AsyncApiDriver, ToDoStory>
     {

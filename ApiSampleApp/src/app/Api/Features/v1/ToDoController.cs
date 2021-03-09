@@ -2,12 +2,12 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ToDo.Api.Common.Web;
-using ToDo.Api.Features.v1.ToDoItems;
-using ToDo.SharedModels.v1.Responses;
-using ToDo.SharedModels.v1.ToDoItems;
+using ApiSample.Api.Common.Web;
+using ApiSample.Api.Features.v1.ToDoItems;
+using ApiSample.SharedModels.v1.Responses;
+using ApiSample.SharedModels.v1.ToDoItems;
 
-namespace ToDo.Api.Features.v1
+namespace ApiSample.Api.Features.v1
 {
     [Authorize]
     public class ToDoController : ApiController

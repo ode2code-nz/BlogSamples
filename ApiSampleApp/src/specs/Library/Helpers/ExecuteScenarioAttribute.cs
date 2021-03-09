@@ -4,7 +4,7 @@ using NUnit.Framework.Interfaces;
 using NUnit.Framework.Internal;
 using NUnit.Framework.Internal.Builders;
 
-namespace Specs.Library.ToDo.Helpers
+namespace Specs.Library.ApiSample.Helpers
 {
     /// <summary>
     /// Sets the NUnit TestName to the name of the scenario class.

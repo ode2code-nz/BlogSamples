@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ToDo.Domain.Common
+namespace ApiSample.Domain.Common
 {
     /// <summary>
     /// From Vladimir Khorikov Pluralsight course -  DDD and EF Core: Preserving Encapsulation

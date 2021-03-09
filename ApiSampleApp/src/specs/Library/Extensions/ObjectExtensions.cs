@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Reflection;
 
-namespace Specs.Library.ToDo.Extensions
+namespace Specs.Library.ApiSample.Extensions
 {
     public static class ObjectExtensions
     {

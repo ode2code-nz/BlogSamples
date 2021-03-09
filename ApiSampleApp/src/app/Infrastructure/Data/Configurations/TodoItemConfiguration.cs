@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ToDo.Domain.Model.ToDos;
+using ApiSample.Domain.Model.ToDos;
 
-namespace ToDo.Infrastructure.Data.Configurations
+namespace ApiSample.Infrastructure.Data.Configurations
 {
     public class ToDoItemConfiguration : IEntityTypeConfiguration<ToDoItem>
     {

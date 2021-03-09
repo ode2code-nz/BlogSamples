@@ -1,6 +1,6 @@
 ﻿using Specify.Stories;
 
-namespace Specs.Component.ToDo.Features.ToDoItems
+namespace Specs.Component.ApiSample.Features.ToDoItems
 {
     public class ToDoStory : UserStory
     {

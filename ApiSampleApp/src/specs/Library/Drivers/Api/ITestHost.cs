@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 
-namespace Specs.Library.ToDo.Drivers.Api
+namespace Specs.Library.ApiSample.Drivers.Api
 {
     public interface ITestHost
     {

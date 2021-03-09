@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.Logging;
 
-namespace ToDo.Infrastructure.Logging
+namespace ApiSample.Infrastructure.Logging
 {
     public static class LogMessages
     {

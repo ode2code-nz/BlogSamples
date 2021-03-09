@@ -1,6 +1,6 @@
-﻿using ToDo.Domain.Common;
+﻿using ApiSample.Domain.Common;
 
-namespace ToDo.Domain.Model.StaticData
+namespace ApiSample.Domain.Model.StaticData
 {
     public class Location : Entity
     {

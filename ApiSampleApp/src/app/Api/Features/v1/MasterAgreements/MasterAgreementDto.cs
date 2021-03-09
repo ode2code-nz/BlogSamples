@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace ToDo.Api.Features.v1.MasterAgreements
+namespace ApiSample.Api.Features.v1.MasterAgreements
 {
     public class MasterAgreementDto
     {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace ToDo.Api.Common.Extensions
+namespace ApiSample.Api.Common.Extensions
 {
     public static class ObjectExtensions
     {

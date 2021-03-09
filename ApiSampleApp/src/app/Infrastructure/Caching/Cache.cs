@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Threading.Tasks;
 using LazyCache;
-using ToDo.Domain.Common;
+using ApiSample.Domain.Common;
 using Serilog;
 
-namespace ToDo.Infrastructure.Caching
+namespace ApiSample.Infrastructure.Caching
 {
     public class Cache : ICache
     {

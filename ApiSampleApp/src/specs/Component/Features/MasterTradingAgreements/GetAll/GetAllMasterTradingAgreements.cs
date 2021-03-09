@@ -3,13 +3,13 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using ToDo.Api.Features;
-using ToDo.SharedModels.v1.MasterTradingAgreements;
-using Specs.Library.ToDo.Builders.Entities;
-using Specs.Library.ToDo.Data;
-using Specs.Library.ToDo.Drivers.Api;
+using ApiSample.Api.Features;
+using ApiSample.SharedModels.v1.MasterTradingAgreements;
+using Specs.Library.ApiSample.Builders.Entities;
+using Specs.Library.ApiSample.Data;
+using Specs.Library.ApiSample.Drivers.Api;
 
-namespace Specs.Component.ToDo.Features.MasterTradingAgreements.GetAll
+namespace Specs.Component.ApiSample.Features.MasterTradingAgreements.GetAll
 {
     public class GetAllMasterTradingAgreements : ScenarioFor<AsyncApiDriver, MasterTradingAgreementStory>
     {

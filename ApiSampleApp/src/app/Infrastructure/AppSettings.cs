@@ -1,4 +1,4 @@
-﻿namespace ToDo.Infrastructure
+﻿namespace ApiSample.Infrastructure
 {
     public class AppSettings
     {

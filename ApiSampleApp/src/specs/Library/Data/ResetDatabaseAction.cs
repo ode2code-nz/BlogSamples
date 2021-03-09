@@ -2,7 +2,7 @@
 using Specify;
 using Specify.Configuration;
 
-namespace Specs.Library.ToDo.Data
+namespace Specs.Library.ApiSample.Data
 {
     public class ResetDatabaseAction : IPerScenarioAction
     {

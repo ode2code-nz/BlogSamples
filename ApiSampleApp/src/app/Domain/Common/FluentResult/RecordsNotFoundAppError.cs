@@ -1,4 +1,4 @@
-﻿namespace ToDo.Domain.Common.FluentResult
+﻿namespace ApiSample.Domain.Common.FluentResult
 {
     public class RecordsNotFoundAppError : AppError
     {

@@ -1,4 +1,4 @@
-﻿namespace ToDo.Infrastructure.Interfaces
+﻿namespace ApiSample.Infrastructure.Interfaces
 {
     public interface ICurrentUserService
     {

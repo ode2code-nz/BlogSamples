@@ -1,4 +1,4 @@
-﻿namespace ToDo.Api.Features
+﻿namespace ApiSample.Api.Features
 {
     public static class ApiRoutes
     {

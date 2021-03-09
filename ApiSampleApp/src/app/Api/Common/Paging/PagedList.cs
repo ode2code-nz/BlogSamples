@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ToDo.Api.Common.Paging
+namespace ApiSample.Api.Common.Paging
 {
     public class PagedList<TDto>
     {

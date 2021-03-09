@@ -1,6 +1,6 @@
-﻿using ToDo.Infrastructure.Data;
+﻿using ApiSample.Infrastructure.Data;
 
-namespace Specs.Library.ToDo.Data
+namespace Specs.Library.ApiSample.Data
 {
     public interface IDbFactory
     {

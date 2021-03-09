@@ -1,4 +1,4 @@
-﻿namespace ToDo.Domain.Common.FluentResult
+﻿namespace ApiSample.Domain.Common.FluentResult
 {
     //[Flags]
     public enum ValidationSeverity

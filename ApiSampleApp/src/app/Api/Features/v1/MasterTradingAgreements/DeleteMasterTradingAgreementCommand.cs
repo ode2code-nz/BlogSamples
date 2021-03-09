@@ -2,10 +2,10 @@
 using System.Threading.Tasks;
 using FluentResults;
 using MediatR;
-using ToDo.Domain.Common.FluentResult;
-using ToDo.Infrastructure.Interfaces;
+using ApiSample.Domain.Common.FluentResult;
+using ApiSample.Infrastructure.Interfaces;
 
-namespace ToDo.Api.Features.v1.MasterTradingAgreements
+namespace ApiSample.Api.Features.v1.MasterTradingAgreements
 {
     public class DeleteMasterTradingAgreementCommand : IRequest<Result>
     {

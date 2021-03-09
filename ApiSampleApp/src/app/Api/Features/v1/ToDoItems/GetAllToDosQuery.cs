@@ -7,10 +7,10 @@ using AutoMapper.QueryableExtensions;
 using FluentResults;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using ToDo.Domain.Model.ToDos;
-using ToDo.Infrastructure.Interfaces;
+using ApiSample.Domain.Model.ToDos;
+using ApiSample.Infrastructure.Interfaces;
 
-namespace ToDo.Api.Features.v1.ToDoItems
+namespace ApiSample.Api.Features.v1.ToDoItems
 {
     public class GetAllToDosQuery : IRequest<Result<List<ToDoItemDto>>>
     {

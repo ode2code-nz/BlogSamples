@@ -2,10 +2,10 @@
 using System.Net.Http.Headers;
 using Specify;
 using Specify.Configuration;
-using Specs.Library.ToDo.Builders;
-using Specs.Library.ToDo.Drivers.Api;
+using Specs.Library.ApiSample.Builders;
+using Specs.Library.ApiSample.Drivers.Api;
 
-namespace Specs.Library.ToDo.Identity
+namespace Specs.Library.ApiSample.Identity
 {
     public class ResetDefaultUser : IPerScenarioAction
     {

@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using FluentAssertions;
 using NUnit.Framework;
-using ToDo.Domain.Common;
-using ToDo.Domain.Model;
+using ApiSample.Domain.Common;
+using ApiSample.Domain.Model;
 
-namespace Specs.Unit.ToDo.Domain.Model
+namespace Specs.Unit.ApiSample.Domain.Model
 {
     public class DateRangeSpecs
     {

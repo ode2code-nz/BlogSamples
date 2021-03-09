@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ToDo.Domain.Core
+namespace ApiSample.Domain.Core
 {
     public static class DecimalExtensions
     {

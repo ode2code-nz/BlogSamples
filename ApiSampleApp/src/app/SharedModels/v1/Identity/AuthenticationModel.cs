@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ToDo.SharedModels.v1.Identity
+namespace ApiSample.SharedModels.v1.Identity
 {
     public class AuthenticationModel
     {

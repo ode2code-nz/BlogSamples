@@ -1,12 +1,12 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using ToDo.Api.Features;
-using ToDo.Api.Features.v1.ToDoItems;
-using Specs.Library.ToDo.Builders;
-using Specs.Library.ToDo.Drivers.Api;
+using ApiSample.Api.Features;
+using ApiSample.Api.Features.v1.ToDoItems;
+using Specs.Library.ApiSample.Builders;
+using Specs.Library.ApiSample.Drivers.Api;
 
-namespace Specs.Component.ToDo.Features.ToDoItems.Update
+namespace Specs.Component.ApiSample.Features.ToDoItems.Update
 {
     public class UpdateNonExistent : ScenarioFor<AsyncApiDriver, ToDoStory>
     {

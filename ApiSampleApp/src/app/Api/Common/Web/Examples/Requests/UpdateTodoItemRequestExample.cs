@@ -1,7 +1,7 @@
-using ToDo.SharedModels.v1.ToDoItems;
+using ApiSample.SharedModels.v1.ToDoItems;
 using Swashbuckle.AspNetCore.Filters;
 
-namespace ToDo.Api.Common.Web.Examples.Requests
+namespace ApiSample.Api.Common.Web.Examples.Requests
 {
     public class UpdateToDoItemRequestExample : IExamplesProvider<UpdateToDoItemRequest>
     {

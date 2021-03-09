@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ToDo.Infrastructure.HealthChecks
+namespace ApiSample.Infrastructure.HealthChecks
 {
     public class DependencyHealthCheck
     {

@@ -1,14 +1,14 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using ToDo.Api.Features;
-using ToDo.Domain.Model.ToDos;
-using ToDo.SharedModels.v1.ToDoItems;
-using Specs.Library.ToDo.Builders.Entities;
-using Specs.Library.ToDo.Data;
-using Specs.Library.ToDo.Drivers.Api;
+using ApiSample.Api.Features;
+using ApiSample.Domain.Model.ToDos;
+using ApiSample.SharedModels.v1.ToDoItems;
+using Specs.Library.ApiSample.Builders.Entities;
+using Specs.Library.ApiSample.Data;
+using Specs.Library.ApiSample.Drivers.Api;
 
-namespace Specs.Component.ToDo.Features.ToDoItems.GetOne
+namespace Specs.Component.ApiSample.Features.ToDoItems.GetOne
 {
     public class GetExistingToDo : ScenarioFor<AsyncApiDriver, ToDoStory>
     {

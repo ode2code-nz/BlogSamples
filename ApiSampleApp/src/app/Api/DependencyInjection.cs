@@ -13,14 +13,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
-using ToDo.Api.Common.Behaviours;
-using ToDo.Infrastructure;
-using ToDo.Infrastructure.Data;
-using ToDo.Infrastructure.Identity;
-using ToDo.Infrastructure.Logging;
+using ApiSample.Api.Common.Behaviours;
+using ApiSample.Infrastructure;
+using ApiSample.Infrastructure.Data;
+using ApiSample.Infrastructure.Identity;
+using ApiSample.Infrastructure.Logging;
 using Swashbuckle.AspNetCore.Filters;
 
-namespace ToDo.Api
+namespace ApiSample.Api
 {
     public static class DependencyInjection
     {

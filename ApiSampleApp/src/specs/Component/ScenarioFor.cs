@@ -1,9 +1,9 @@
 ﻿using NUnit.Framework;
 using Specify.Stories;
-using Specs.Library.ToDo.Data;
-using Specs.Library.ToDo.Helpers;
+using Specs.Library.ApiSample.Data;
+using Specs.Library.ApiSample.Helpers;
 
-namespace Specs.Component.ToDo
+namespace Specs.Component.ApiSample
 {
     [TestFixture]
     public abstract class ScenarioFor<TSut, TStory> : Specify.ScenarioFor<TSut, TStory>

@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
 
-namespace ToDo.Api.Common.Validation
+namespace ApiSample.Api.Common.Validation
 {
     public abstract class PrimaryKeyValidator<T> : AbstractValidator<T> 
         where T : IRequireValidation

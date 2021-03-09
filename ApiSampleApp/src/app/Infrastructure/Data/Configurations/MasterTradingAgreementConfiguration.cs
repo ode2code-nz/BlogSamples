@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ToDo.Domain.Model.MasterTradingAgreements;
+using ApiSample.Domain.Model.MasterTradingAgreements;
 
-namespace ToDo.Infrastructure.Data.Configurations
+namespace ApiSample.Infrastructure.Data.Configurations
 {
     public class MasterTradingAgreementConfiguration : IEntityTypeConfiguration<MasterTradingAgreement>
     {

@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 
-namespace Specs.Unit.ToDo
+namespace Specs.Unit.ApiSample
 {
     [TestFixture]
     public abstract class TestsFor<TSut> : Specify.TestsFor<TSut> where TSut : class

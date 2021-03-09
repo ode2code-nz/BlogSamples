@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
-using ToDo.Domain.Common;
-using ToDo.Domain.Model.StaticData;
+using ApiSample.Domain.Common;
+using ApiSample.Domain.Model.StaticData;
 
-namespace ToDo.Domain.Model.MasterTradingAgreements
+namespace ApiSample.Domain.Model.MasterTradingAgreements
 {
     public class MasterTradingAgreement : AggregateRoot
     {

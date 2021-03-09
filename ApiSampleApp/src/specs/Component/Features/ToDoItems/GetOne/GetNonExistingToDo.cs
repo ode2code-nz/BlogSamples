@@ -1,11 +1,11 @@
 ﻿using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using ToDo.Api.Features;
-using ToDo.SharedModels.v1.ToDoItems;
-using Specs.Library.ToDo.Drivers.Api;
+using ApiSample.Api.Features;
+using ApiSample.SharedModels.v1.ToDoItems;
+using Specs.Library.ApiSample.Drivers.Api;
 
-namespace Specs.Component.ToDo.Features.ToDoItems.GetOne
+namespace Specs.Component.ApiSample.Features.ToDoItems.GetOne
 {
     public class GetNonExistingToDo : ScenarioFor<AsyncApiDriver, ToDoStory>
     {

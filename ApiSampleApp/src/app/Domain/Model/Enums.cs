@@ -1,4 +1,4 @@
-﻿namespace ToDo.Domain.Model
+﻿namespace ApiSample.Domain.Model
 {
     public class Enums
     {

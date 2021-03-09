@@ -1,6 +1,6 @@
 ﻿using FluentResults;
 
-namespace ToDo.Domain.Common.FluentResult
+namespace ApiSample.Domain.Common.FluentResult
 {
     // Base error for all application errors.
     public class AppError : Error, IFailure

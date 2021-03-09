@@ -2,10 +2,10 @@
 using System.Linq;
 using FluentResults;
 using FluentValidation;
-using ToDo.Domain.Common.FluentResult;
+using ApiSample.Domain.Common.FluentResult;
 using Serilog;
 
-namespace ToDo.Api.Common.Validation
+namespace ApiSample.Api.Common.Validation
 {
     public class ValidationService
     {

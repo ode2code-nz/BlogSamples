@@ -2,16 +2,16 @@
 using System.Threading.Tasks;
 using FluentAssertions;
 using Mapster;
-using ToDo.Api.Features;
-using ToDo.Domain.Model.MasterTradingAgreements;
-using ToDo.SharedModels.v1.MasterTradingAgreements;
+using ApiSample.Api.Features;
+using ApiSample.Domain.Model.MasterTradingAgreements;
+using ApiSample.SharedModels.v1.MasterTradingAgreements;
 using Specify;
-using Specs.Library.ToDo.Builders.Entities;
-using Specs.Library.ToDo.Data;
-using Specs.Library.ToDo.Drivers.Api;
-using Specs.Library.ToDo.Extensions;
+using Specs.Library.ApiSample.Builders.Entities;
+using Specs.Library.ApiSample.Data;
+using Specs.Library.ApiSample.Drivers.Api;
+using Specs.Library.ApiSample.Extensions;
 
-namespace Specs.Component.ToDo.Features.MasterTradingAgreements.Update
+namespace Specs.Component.ApiSample.Features.MasterTradingAgreements.Update
 {
     public class InvalidUpdate : ScenarioFor<AsyncApiDriver, MasterTradingAgreementStory>
     {

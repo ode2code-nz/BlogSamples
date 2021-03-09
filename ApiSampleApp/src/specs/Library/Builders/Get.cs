@@ -1,8 +1,8 @@
 ﻿using AutoFixture;
-using Specs.Library.ToDo.Builders.ObjectMothers;
+using Specs.Library.ApiSample.Builders.ObjectMothers;
 using TestStack.Dossier;
 
-namespace Specs.Library.ToDo.Builders
+namespace Specs.Library.ApiSample.Builders
 {
     public static class Get
     {

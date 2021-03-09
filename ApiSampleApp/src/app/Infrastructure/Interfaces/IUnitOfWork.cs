@@ -4,10 +4,10 @@ using System.Threading.Tasks;
 using FluentResults;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
-using ToDo.Domain.Model.MasterTradingAgreements;
-using ToDo.Domain.Model.ToDos;
+using ApiSample.Domain.Model.MasterTradingAgreements;
+using ApiSample.Domain.Model.ToDos;
 
-namespace ToDo.Infrastructure.Interfaces
+namespace ApiSample.Infrastructure.Interfaces
 {
     // This is used by Command Handlers in CQRS
     public interface IUnitOfWork

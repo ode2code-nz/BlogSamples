@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using ToDo.Api.Common.Mappings;
-using ToDo.Domain.Model.ToDos;
-using ToDo.SharedModels.v1.ToDoItems;
+using ApiSample.Api.Common.Mappings;
+using ApiSample.Domain.Model.ToDos;
+using ApiSample.SharedModels.v1.ToDoItems;
 
-namespace ToDo.Api.Features.v1.ToDoItems
+namespace ApiSample.Api.Features.v1.ToDoItems
 {
     public class ToDoItemDto : IMapFrom<ToDoItem>, IMapToAndFrom<ToDoItemResponse>
     {

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ToDo.SharedModels.v1.Identity
+namespace ApiSample.SharedModels.v1.Identity
 {
     public class TokenRequestModel
     {

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using ToDo.Domain.Common;
-using ToDo.Domain.Core;
+using ApiSample.Domain.Common;
+using ApiSample.Domain.Core;
 
-namespace ToDo.Domain.Model
+namespace ApiSample.Domain.Model
 {
     public class DateRange : Range<DateTime>
     {

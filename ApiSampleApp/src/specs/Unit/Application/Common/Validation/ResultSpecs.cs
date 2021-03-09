@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using FluentAssertions;
 using FluentResults;
-using ToDo.Domain.Common.FluentResult;
+using ApiSample.Domain.Common.FluentResult;
 
-namespace Specs.Unit.ToDo.Application.Common.Validation
+namespace Specs.Unit.ApiSample.Application.Common.Validation
 {
     public class MergeTwoSuccessResults : ScenarioFor<Result>
     {

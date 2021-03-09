@@ -2,15 +2,15 @@
 using System.Linq;
 using FluentAssertions;
 using FluentValidation;
-using ToDo.Api.Common.Validation;
-using ToDo.Domain.Common.FluentResult;
+using ApiSample.Api.Common.Validation;
+using ApiSample.Domain.Common.FluentResult;
 using Specify;
-using Specs.Library.ToDo.Builders;
-using Specs.Library.ToDo.Builders.ObjectMothers;
+using Specs.Library.ApiSample.Builders;
+using Specs.Library.ApiSample.Builders.ObjectMothers;
 using TestStack.BDDfy;
 using Result = FluentResults.Result;
 
-namespace Specs.Unit.ToDo.Application.Common.Validation
+namespace Specs.Unit.ApiSample.Application.Common.Validation
 {
     public abstract class ValidationServiceScenario : ScenarioFor<ValidationService>
     {

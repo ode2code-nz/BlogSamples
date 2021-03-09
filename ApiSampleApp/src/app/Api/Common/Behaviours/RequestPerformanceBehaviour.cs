@@ -3,9 +3,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using ToDo.Infrastructure.Logging;
+using ApiSample.Infrastructure.Logging;
 
-namespace ToDo.Api.Common.Behaviours
+namespace ApiSample.Api.Common.Behaviours
 {
     public class RequestPerformanceBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     {

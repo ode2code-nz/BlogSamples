@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
-using ToDo.Infrastructure.Identity;
-using ToDo.Infrastructure.Identity.Models;
+using ApiSample.Infrastructure.Identity;
+using ApiSample.Infrastructure.Identity.Models;
 
-namespace Specs.Library.ToDo.Builders.ObjectMothers
+namespace Specs.Library.ApiSample.Builders.ObjectMothers
 {
     public class Users
     {

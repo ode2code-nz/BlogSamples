@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using ToDo.Domain.Common;
-using ToDo.Domain.Core;
+using ApiSample.Domain.Common;
+using ApiSample.Domain.Core;
 
-namespace ToDo.Domain.Model
+namespace ApiSample.Domain.Model
 {
     public class GasTimeZoneInfo: ValueObject
     {

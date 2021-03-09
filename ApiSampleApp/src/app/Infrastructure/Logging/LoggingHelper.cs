@@ -5,7 +5,7 @@ using Serilog.Events;
 using Serilog.Exceptions;
 using Serilog.Formatting.Compact;
 
-namespace ToDo.Infrastructure.Logging
+namespace ApiSample.Infrastructure.Logging
 {
     public static class LoggingHelper
     {

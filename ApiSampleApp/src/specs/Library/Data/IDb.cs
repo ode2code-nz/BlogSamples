@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using ToDo.Domain.Common;
-using ToDo.Infrastructure.Data;
+using ApiSample.Domain.Common;
+using ApiSample.Infrastructure.Data;
 
-namespace Specs.Library.ToDo.Data
+namespace Specs.Library.ApiSample.Data
 {
     public interface IDb
     {

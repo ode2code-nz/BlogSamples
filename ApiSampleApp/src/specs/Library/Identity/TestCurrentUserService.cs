@@ -1,6 +1,6 @@
-﻿using ToDo.Infrastructure.Interfaces;
+﻿using ApiSample.Infrastructure.Interfaces;
 
-namespace Specs.Library.ToDo.Identity
+namespace Specs.Library.ApiSample.Identity
 {
     public class TestCurrentUserService : ICurrentUserService
     {

@@ -3,10 +3,10 @@ using System.Linq;
 using System.Net;
 using FluentResults;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using ToDo.Domain.Common.FluentResult;
-using ToDo.SharedModels.v1.Responses;
+using ApiSample.Domain.Common.FluentResult;
+using ApiSample.SharedModels.v1.Responses;
 
-namespace ToDo.Api.Common.Web
+namespace ApiSample.Api.Common.Web
 {
     public static class ResponseFactory
     {

@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Xml.Serialization;
 
-namespace ToDo.Domain.Core
+namespace ApiSample.Domain.Core
 {
     public static class StringExtensions
     {

@@ -1,6 +1,6 @@
 ﻿using FluentResults;
 
-namespace ToDo.Domain.Common.FluentResult
+namespace ApiSample.Domain.Common.FluentResult
 {
     public static class ResultFactory
     {

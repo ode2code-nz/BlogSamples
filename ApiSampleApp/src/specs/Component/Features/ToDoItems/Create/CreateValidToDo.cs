@@ -2,14 +2,14 @@
 using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
-using ToDo.Api.Features;
-using ToDo.Domain.Model.ToDos;
-using ToDo.SharedModels.v1.Responses;
-using ToDo.SharedModels.v1.ToDoItems;
-using Specs.Library.ToDo.Drivers.Api;
+using ApiSample.Api.Features;
+using ApiSample.Domain.Model.ToDos;
+using ApiSample.SharedModels.v1.Responses;
+using ApiSample.SharedModels.v1.ToDoItems;
+using Specs.Library.ApiSample.Drivers.Api;
 using TestStack.Dossier;
 
-namespace Specs.Component.ToDo.Features.ToDoItems.Create
+namespace Specs.Component.ApiSample.Features.ToDoItems.Create
 {
     public class CreateValidToDo : ScenarioFor<AsyncApiDriver, ToDoStory>
     {

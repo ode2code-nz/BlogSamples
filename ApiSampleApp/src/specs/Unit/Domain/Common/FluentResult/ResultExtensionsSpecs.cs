@@ -1,9 +1,9 @@
 ﻿using FluentAssertions;
 using FluentResults;
-using ToDo.Domain.Common.FluentResult;
-using Specs.Library.ToDo.Builders;
+using ApiSample.Domain.Common.FluentResult;
+using Specs.Library.ApiSample.Builders;
 
-namespace Specs.Unit.ToDo.Domain.Common.FluentResult
+namespace Specs.Unit.ApiSample.Domain.Common.FluentResult
 {
     public class WhenGettingFailures : ScenarioFor<Result>
     {

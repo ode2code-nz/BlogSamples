@@ -2,10 +2,10 @@
 using FluentResults;
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
-using ToDo.Domain.Common;
-using ToDo.Domain.Common.FluentResult;
+using ApiSample.Domain.Common;
+using ApiSample.Domain.Common.FluentResult;
 
-namespace ToDo.Infrastructure.Data
+namespace ApiSample.Infrastructure.Data
 {
     public static class DbUtil
     {

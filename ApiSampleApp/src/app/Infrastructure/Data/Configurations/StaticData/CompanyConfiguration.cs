@@ -1,8 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using ToDo.Domain.Model.StaticData;
+using ApiSample.Domain.Model.StaticData;
 
-namespace ToDo.Infrastructure.Data.Configurations.StaticData
+namespace ApiSample.Infrastructure.Data.Configurations.StaticData
 {
     public class CompanyConfiguration : IEntityTypeConfiguration<Company>
     {

@@ -1,4 +1,4 @@
-﻿namespace ToDo.Domain.Model.MasterTradingAgreements
+﻿namespace ApiSample.Domain.Model.MasterTradingAgreements
 {
 
     public enum MasterTradingAgreementType

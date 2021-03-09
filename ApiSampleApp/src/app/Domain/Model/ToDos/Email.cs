@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using FluentResults;
-using ToDo.Domain.Common;
+using ApiSample.Domain.Common;
 
-namespace ToDo.Domain.Model.ToDos
+namespace ApiSample.Domain.Model.ToDos
 {
     public class Email : ValueObject
     {

@@ -1,4 +1,4 @@
-﻿namespace ToDo.Api.Common.Web
+﻿namespace ApiSample.Api.Common.Web
 {
 
     //public static class ActionResults

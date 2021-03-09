@@ -1,8 +1,8 @@
 ﻿using FluentValidation.TestHelper;
-using ToDo.Api.Features.v1.ToDoItems;
-using Specs.Library.ToDo.Extensions;
+using ApiSample.Api.Features.v1.ToDoItems;
+using Specs.Library.ApiSample.Extensions;
 
-namespace Specs.Unit.ToDo.Application.Features.ToDoItems.Create
+namespace Specs.Unit.ApiSample.Application.Features.ToDoItems.Create
 {
     public class CreateToDoItemCommandValidatorSpecs: ScenarioFor<CreateToDoItemCommandValidator>
     {

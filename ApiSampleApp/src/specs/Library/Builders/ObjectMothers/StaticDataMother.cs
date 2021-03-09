@@ -1,7 +1,7 @@
-﻿using ToDo.Domain.Model.StaticData;
-using Specs.Library.ToDo.Builders.Entities.Static;
+﻿using ApiSample.Domain.Model.StaticData;
+using Specs.Library.ApiSample.Builders.Entities.Static;
 
-namespace Specs.Library.ToDo.Builders.ObjectMothers
+namespace Specs.Library.ApiSample.Builders.ObjectMothers
 {
     public class StaticDataMother
     {

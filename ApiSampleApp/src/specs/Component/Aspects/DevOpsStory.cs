@@ -1,6 +1,6 @@
 ﻿using Specify.Stories;
 
-namespace Specs.Component.ToDo.Aspects
+namespace Specs.Component.ApiSample.Aspects
 {
     public class DevOpsStory : UserStory
     {

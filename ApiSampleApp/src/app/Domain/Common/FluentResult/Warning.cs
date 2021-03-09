@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using FluentResults;
 
-namespace ToDo.Domain.Common.FluentResult
+namespace ApiSample.Domain.Common.FluentResult
 {
     public class Warning : Reason
     {

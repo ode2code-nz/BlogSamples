@@ -5,11 +5,11 @@ using System.Security.Cryptography;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity;
 using Newtonsoft.Json;
-using ToDo.Infrastructure.Data;
-using ToDo.Infrastructure.Identity.Entities;
-using ToDo.Infrastructure.Identity.Models;
+using ApiSample.Infrastructure.Data;
+using ApiSample.Infrastructure.Identity.Entities;
+using ApiSample.Infrastructure.Identity.Models;
 
-namespace ToDo.Infrastructure.Identity
+namespace ApiSample.Infrastructure.Identity
 {
     public class UserService : IUserService
     {

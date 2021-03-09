@@ -1,9 +1,9 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using ToDo.Domain.Model.StaticData;
-using ToDo.Infrastructure.Identity;
+using ApiSample.Domain.Model.StaticData;
+using ApiSample.Infrastructure.Identity;
 
-namespace ToDo.Infrastructure.Data.DataSeed
+namespace ApiSample.Infrastructure.Data.DataSeed
 {
     public static class StaticDataSeed
     {

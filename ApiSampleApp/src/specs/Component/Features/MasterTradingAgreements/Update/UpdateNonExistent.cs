@@ -2,12 +2,12 @@
 using System.Threading.Tasks;
 using FluentAssertions;
 using Mapster;
-using ToDo.Api.Features;
-using ToDo.SharedModels.v1.MasterTradingAgreements;
-using Specs.Library.ToDo.Builders.Entities;
-using Specs.Library.ToDo.Drivers.Api;
+using ApiSample.Api.Features;
+using ApiSample.SharedModels.v1.MasterTradingAgreements;
+using Specs.Library.ApiSample.Builders.Entities;
+using Specs.Library.ApiSample.Drivers.Api;
 
-namespace Specs.Component.ToDo.Features.MasterTradingAgreements.Update
+namespace Specs.Component.ApiSample.Features.MasterTradingAgreements.Update
 {
     public class UpdateNonExistent : ScenarioFor<AsyncApiDriver, MasterTradingAgreementStory>
     {

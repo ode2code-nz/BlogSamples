@@ -1,10 +1,10 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
-using ToDo.Domain.Common;
-using ToDo.Infrastructure.Data;
-using Specs.Library.ToDo.Helpers;
+using ApiSample.Domain.Common;
+using ApiSample.Infrastructure.Data;
+using Specs.Library.ApiSample.Helpers;
 
-namespace Specs.Library.ToDo.Data.SqlServer
+namespace Specs.Library.ApiSample.Data.SqlServer
 {
     public class SqlDb : IDb
     {

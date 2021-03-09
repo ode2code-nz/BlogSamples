@@ -5,7 +5,7 @@ using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace ToDo.Api.Features
+namespace ApiSample.Api.Features
 {
     [ApiController]
   //  [Route("api/v{version:apiVersion}/[controller]")]

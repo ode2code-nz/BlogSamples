@@ -4,10 +4,10 @@ using System.Net;
 using System.Net.Http;
 using System.Text;
 using FluentAssertions;
-using ToDo.SharedModels.v1.Responses;
-using Specs.Library.ToDo.Drivers.Api;
+using ApiSample.SharedModels.v1.Responses;
+using Specs.Library.ApiSample.Drivers.Api;
 
-namespace Specs.Library.ToDo.Extensions
+namespace Specs.Library.ApiSample.Extensions
 {
     public static class ApiResponseAssertions
     {

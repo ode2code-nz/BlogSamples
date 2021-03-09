@@ -5,10 +5,10 @@ using FluentResults;
 using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using ToDo.Api.Common.Validation;
-using ToDo.Api.Common.Web;
+using ApiSample.Api.Common.Validation;
+using ApiSample.Api.Common.Web;
 
-namespace ToDo.Api.Common.Behaviours
+namespace ApiSample.Api.Common.Behaviours
 {
     public class RequestValidationBehaviour<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
         where TRequest : CommandBase

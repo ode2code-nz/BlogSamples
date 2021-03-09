@@ -2,7 +2,7 @@
 using Specify.Configuration;
 using TestStack.BDDfy.Configuration;
 
-namespace Specs.Unit.ToDo
+namespace Specs.Unit.ApiSample
 {
     /// <summary>
     /// The startup class to configure Specify with the default DryIoc container. 

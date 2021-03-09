@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace ToDo.Domain.Common
+namespace ApiSample.Domain.Common
 {
     /// <summary>
     /// Use non-generic ValueObject whenever possible: http://bit.ly/vo-new

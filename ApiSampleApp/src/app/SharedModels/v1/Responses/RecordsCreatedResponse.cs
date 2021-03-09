@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ToDo.SharedModels.v1.Responses
+namespace ApiSample.SharedModels.v1.Responses
 {
     public class RecordsCreatedResponse
     {

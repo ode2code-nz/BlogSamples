@@ -3,12 +3,12 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ToDo.Api.Common.Web;
-using ToDo.Infrastructure;
-using ToDo.Infrastructure.HealthChecks;
-using ToDo.Infrastructure.Logging;
+using ApiSample.Api.Common.Web;
+using ApiSample.Infrastructure;
+using ApiSample.Infrastructure.HealthChecks;
+using ApiSample.Infrastructure.Logging;
 
-namespace ToDo.Api
+namespace ApiSample.Api
 {
     public class Startup
     {

@@ -2,12 +2,12 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using ToDo.Api.Common.Web;
-using ToDo.Api.Features.v1.MasterTradingAgreements;
-using ToDo.SharedModels.v1.MasterTradingAgreements;
-using ToDo.SharedModels.v1.Responses;
+using ApiSample.Api.Common.Web;
+using ApiSample.Api.Features.v1.MasterTradingAgreements;
+using ApiSample.SharedModels.v1.MasterTradingAgreements;
+using ApiSample.SharedModels.v1.Responses;
 
-namespace ToDo.Api.Features.v1
+namespace ApiSample.Api.Features.v1
 {
     [Authorize()]
     public class MasterTradingAgreementController : ApiController

@@ -1,6 +1,6 @@
 ﻿using Specify.Stories;
 
-namespace Specs.Component.ToDo.Features.StaticData.GetStaticData
+namespace Specs.Component.ApiSample.Features.StaticData.GetStaticData
 {
     public class GetStaticDataStory : UserStory
     {

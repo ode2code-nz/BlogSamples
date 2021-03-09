@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using Microsoft.Data.SqlClient;
 
-namespace Specs.Integration.ToDo.Infrastructure.Persistence
+namespace Specs.Integration.ApiSample.Infrastructure.Persistence
 {
     public static class SqlExceptionFactory
     {

@@ -1,8 +1,8 @@
 ﻿using System.Linq;
-using ToDo.Domain.Common;
-using ToDo.Domain.Model.ToDos;
+using ApiSample.Domain.Common;
+using ApiSample.Domain.Model.ToDos;
 
-namespace ToDo.Infrastructure.Interfaces
+namespace ApiSample.Infrastructure.Interfaces
 {
     // This is used by Query Handlers in CQRS
     public interface IQueryDb 

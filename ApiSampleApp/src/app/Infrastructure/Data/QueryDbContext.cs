@@ -1,10 +1,10 @@
 ﻿using System.Linq;
 using Microsoft.EntityFrameworkCore;
-using ToDo.Domain.Common;
-using ToDo.Domain.Model.ToDos;
-using ToDo.Infrastructure.Interfaces;
+using ApiSample.Domain.Common;
+using ApiSample.Domain.Model.ToDos;
+using ApiSample.Infrastructure.Interfaces;
 
-namespace ToDo.Infrastructure.Data
+namespace ApiSample.Infrastructure.Data
 {
     public class QueryDbContext : IQueryDb
     {

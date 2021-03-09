@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Specs.Library.ToDo.Drivers.Api
+namespace Specs.Library.ApiSample.Drivers.Api
 {
     public class ApiDriverException : Exception
     {

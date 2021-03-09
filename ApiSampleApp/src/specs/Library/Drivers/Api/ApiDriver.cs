@@ -2,7 +2,7 @@
 using System.Net.Http;
 using Newtonsoft.Json;
 
-namespace Specs.Library.ToDo.Drivers.Api
+namespace Specs.Library.ApiSample.Drivers.Api
 {
     public class ApiDriver
     {

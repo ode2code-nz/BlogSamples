@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace ToDo.Infrastructure.HealthChecks
+namespace ApiSample.Infrastructure.HealthChecks
 {
     public class ReadyHealthCheck
     {

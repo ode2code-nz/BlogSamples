@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using AutoMapper;
-using ToDo.Api.Common.Mappings;
-using ToDo.Domain.Model.MasterTradingAgreements;
-using ToDo.SharedModels.v1.MasterTradingAgreements;
+using ApiSample.Api.Common.Mappings;
+using ApiSample.Domain.Model.MasterTradingAgreements;
+using ApiSample.SharedModels.v1.MasterTradingAgreements;
 
-namespace ToDo.Api.Features.v1.MasterTradingAgreements
+namespace ApiSample.Api.Features.v1.MasterTradingAgreements
 {
     public class MasterTradingAgreementDto : IMapFrom<MasterTradingAgreement>, IMapToAndFrom<MasterTradingAgreementResponse>
     {

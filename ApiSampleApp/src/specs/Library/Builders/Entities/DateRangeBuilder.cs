@@ -1,8 +1,8 @@
 ﻿using System;
-using ToDo.Domain.Model;
+using ApiSample.Domain.Model;
 using TestStack.Dossier;
 
-namespace Specs.Library.ToDo.Builders.Entities
+namespace Specs.Library.ApiSample.Builders.Entities
 {
     public class DateRangeBuilder : TestDataBuilder<DateRange, DateRangeBuilder>
     {

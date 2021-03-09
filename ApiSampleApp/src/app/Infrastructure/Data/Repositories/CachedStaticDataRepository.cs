@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Threading;
 using System.Threading.Tasks;
-using ToDo.Domain.Abstractions;
-using ToDo.Domain.Model.StaticData;
-using ToDo.Infrastructure.Caching;
+using ApiSample.Domain.Abstractions;
+using ApiSample.Domain.Model.StaticData;
+using ApiSample.Infrastructure.Caching;
 
-namespace ToDo.Infrastructure.Data.Repositories
+namespace ApiSample.Infrastructure.Data.Repositories
 {
     public class CachedStaticDataRepository : IStaticDataRepository
     {

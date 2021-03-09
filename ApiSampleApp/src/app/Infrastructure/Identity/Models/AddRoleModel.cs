@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace ToDo.Infrastructure.Identity.Models
+namespace ApiSample.Infrastructure.Identity.Models
 {
     public class AddRoleModel
     {

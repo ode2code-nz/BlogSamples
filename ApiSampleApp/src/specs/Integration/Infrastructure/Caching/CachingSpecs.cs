@@ -2,11 +2,11 @@
 using System.Threading.Tasks;
 using FluentAssertions;
 using LazyCache;
-using ToDo.Domain.Model;
-using ToDo.Infrastructure.Caching;
-using Specs.Library.ToDo.Builders.Entities;
+using ApiSample.Domain.Model;
+using ApiSample.Infrastructure.Caching;
+using Specs.Library.ApiSample.Builders.Entities;
 
-namespace Specs.Integration.ToDo.Infrastructure.Caching
+namespace Specs.Integration.ApiSample.Infrastructure.Caching
 {
     public class ReturnsNewItemIfAddToCacheSucceeds : ScenarioFor<ICache>
     {

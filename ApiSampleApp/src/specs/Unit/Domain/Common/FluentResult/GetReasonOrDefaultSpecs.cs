@@ -1,8 +1,8 @@
 ﻿using FluentAssertions;
 using FluentResults;
-using ToDo.Domain.Common.FluentResult;
+using ApiSample.Domain.Common.FluentResult;
 
-namespace Specs.Unit.ToDo.Domain.Common.FluentResult
+namespace Specs.Unit.ApiSample.Domain.Common.FluentResult
 {
     public class GetReasonOrDefault : ScenarioFor<Result>
     {

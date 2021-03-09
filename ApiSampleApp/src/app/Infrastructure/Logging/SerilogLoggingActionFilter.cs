@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
 using Serilog;
 
-namespace ToDo.Infrastructure.Logging
+namespace ApiSample.Infrastructure.Logging
 {
     // MVC-specific features like the action method ID, RazorPages Handler name,
     // or the ModelValidationState are only available in an MVC context,

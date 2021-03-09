@@ -3,7 +3,7 @@ using System.Linq;
 using System.Reflection;
 using AutoMapper;
 
-namespace ToDo.Api.Common.Mappings
+namespace ApiSample.Api.Common.Mappings
 {
     public class MappingProfile : Profile
     {

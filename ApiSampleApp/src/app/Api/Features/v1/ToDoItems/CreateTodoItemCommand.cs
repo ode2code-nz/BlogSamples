@@ -3,14 +3,14 @@ using System.Threading.Tasks;
 using FluentResults;
 using FluentValidation;
 using MediatR;
-using ToDo.Api.Common.Mappings;
-using ToDo.Api.Common.Validation;
-using ToDo.Domain.Common.FluentResult;
-using ToDo.Domain.Model.ToDos;
-using ToDo.Infrastructure.Interfaces;
-using ToDo.SharedModels.v1.ToDoItems;
+using ApiSample.Api.Common.Mappings;
+using ApiSample.Api.Common.Validation;
+using ApiSample.Domain.Common.FluentResult;
+using ApiSample.Domain.Model.ToDos;
+using ApiSample.Infrastructure.Interfaces;
+using ApiSample.SharedModels.v1.ToDoItems;
 
-namespace ToDo.Api.Features.v1.ToDoItems
+namespace ApiSample.Api.Features.v1.ToDoItems
 {
     public class CreateToDoItemCommand : CommandBase, IMapFrom<CreateToDoItemRequest>
     {

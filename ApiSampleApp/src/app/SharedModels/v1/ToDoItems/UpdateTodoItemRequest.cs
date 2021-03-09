@@ -1,4 +1,4 @@
-﻿namespace ToDo.SharedModels.v1.ToDoItems
+﻿namespace ApiSample.SharedModels.v1.ToDoItems
 {
     public class UpdateToDoItemRequest 
     {

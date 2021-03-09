@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace ToDo.Domain.Core
+namespace ApiSample.Domain.Core
 {
     public static class ExceptionExtensions
     {

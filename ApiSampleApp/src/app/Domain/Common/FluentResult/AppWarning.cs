@@ -1,4 +1,4 @@
-﻿namespace ToDo.Domain.Common.FluentResult
+﻿namespace ApiSample.Domain.Common.FluentResult
 {
     // Base warning for all application warnings.
     public class AppWarning : Warning, IFailure

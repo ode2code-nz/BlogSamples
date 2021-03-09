@@ -2,9 +2,9 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using ToDo.Infrastructure.Data;
+using ApiSample.Infrastructure.Data;
 
-namespace ToDo.Infrastructure.Migrations
+namespace ApiSample.Infrastructure.Migrations
 {
     [DbContext(typeof(AppDbContext))]
     partial class AppDbContextModelSnapshot : ModelSnapshot

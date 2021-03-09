@@ -1,13 +1,13 @@
 ﻿using System.Threading.Tasks;
 using FluentAssertions;
-using ToDo.Api.Features;
-using ToDo.Api.Features.v1.ToDoItems;
-using ToDo.Domain.Model.ToDos;
-using ToDo.SharedModels.v1.Responses;
-using Specs.Library.ToDo.Drivers.Api;
-using Specs.Library.ToDo.Extensions;
+using ApiSample.Api.Features;
+using ApiSample.Api.Features.v1.ToDoItems;
+using ApiSample.Domain.Model.ToDos;
+using ApiSample.SharedModels.v1.Responses;
+using Specs.Library.ApiSample.Drivers.Api;
+using Specs.Library.ApiSample.Extensions;
 
-namespace Specs.Component.ToDo.Features.ToDoItems.Create
+namespace Specs.Component.ApiSample.Features.ToDoItems.Create
 {
     public class CreateInvalidToDo : ScenarioFor<AsyncApiDriver, ToDoStory>
     {

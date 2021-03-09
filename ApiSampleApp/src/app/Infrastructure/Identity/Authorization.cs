@@ -6,7 +6,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.IdentityModel.Tokens;
 
-namespace ToDo.Infrastructure.Identity
+namespace ApiSample.Infrastructure.Identity
 {
     public class Authorization
     {
