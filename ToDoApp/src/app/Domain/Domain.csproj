@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<RootNamespace>ToDo.Domain</RootNamespace>
+		<AssemblyName>ToDo.Domain</AssemblyName>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentResults" Version="2.3.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Model\Inventory\" />
+	  <Folder Include="Core\" />
+	</ItemGroup>
+
+</Project>
