@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net5.0</TargetFramework>
+		<IsPackable>false</IsPackable>
+		<AssemblyName>Specs.Component.Todo</AssemblyName>
+		<RootNamespace>Specs.Component.Todo</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="FluentAssertions" Version="5.10.3" />
+		<PackageReference Include="Mapster" Version="7.1.3" />
+		<PackageReference Include="NUnit" Version="3.13.1" />
+		<PackageReference Include="NUnit3TestAdapter" Version="3.17.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" Version="5.0.2" />
+		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.8.3" />
+		<PackageReference Include="Specify" Version="3.0.0" />
+		<PackageReference Include="Specify.Autofac" Version="3.0.0" />
+		<PackageReference Include="TestStack.Dossier" Version="4.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Library\Library.csproj" />
+	</ItemGroup>
+
+</Project>
