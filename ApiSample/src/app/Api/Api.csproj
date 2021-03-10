@@ -2,8 +2,8 @@
 
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
-		<RootNamespace>ToDo.Api</RootNamespace>
-		<AssemblyName>ToDo.Api</AssemblyName>
+		<RootNamespace>ApiSample.Api</RootNamespace>
+		<AssemblyName>ApiSample.Api</AssemblyName>
 	</PropertyGroup>
 
 	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

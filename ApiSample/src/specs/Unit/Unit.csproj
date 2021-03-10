@@ -3,8 +3,8 @@
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
 		<IsPackable>false</IsPackable>
-		<AssemblyName>Specs.Unit.ToDo</AssemblyName>
-		<RootNamespace>Specs.Unit.ToDo</RootNamespace>
+		<AssemblyName>Specs.Unit.ApiSample</AssemblyName>
+		<RootNamespace>Specs.Unit.ApiSample</RootNamespace>
 	</PropertyGroup>
 
 	<ItemGroup>

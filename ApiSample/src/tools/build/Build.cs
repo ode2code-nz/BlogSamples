@@ -11,6 +11,7 @@ using Nuke.Common.Tools.DotNet;
 using Nuke.Common.Utilities.Collections;
 using static Nuke.Common.IO.FileSystemTasks;
 using static Nuke.Common.Tools.DotNet.DotNetTasks;
+using Nuke.Common.Tooling;
 
 [CheckBuildProjectConfigurations]
 [ShutdownDotNetAfterServerBuild]
@@ -63,7 +64,23 @@ class Build : NukeBuild
     AbsolutePath SourceDirectory => RootDirectory / "src/app";
     AbsolutePath ArtifactsDirectory => RootDirectory / "artifacts";
 
-    Target Clean => _ => _
+    private readonly string DockerImage= "mcr.microsoft.com/mssql/server:2019-latest";
+    private readonly string Password= "Password_01";
+    private readonly string PortNumber= "1433";
+    private readonly string ImageName= "sql1";
+    private readonly string ImageHostName = "sql1";
+
+    private readonly string DbServer = "localhost";
+    private readonly string DatabaseName = "ApiSampleDb-Test";
+    private readonly string UserId = "sa";
+    
+
+    private string ConnectionString => 
+        $"Server={DbServer},{PortNumber};Database={DatabaseName};User Id = {UserId};Password={Password};" +
+        $"MultipleActiveResultSets=True;Trusted_Connection=False;Persist Security Info=true";
+
+
+Target Clean => _ => _
         .Executes(() =>
         {
             SourceDirectory.GlobDirectories("**/bin", "**/obj").ForEach(DeleteDirectory);
@@ -94,12 +111,12 @@ class Build : NukeBuild
         .Executes(() =>
         {
             DockerTasks.DockerRun(x =>
-            x.SetImage("mcr.microsoft.com/mssql/server:2019-latest")
-               .SetEnv(new string[] { "ACCEPT_EULA=Y", "SA_PASSWORD=Password#01" })
-               .SetPublish("1433:1433")
+            x.SetImage(DockerImage)
+               .SetEnv(new string[] { "ACCEPT_EULA=Y", $"SA_PASSWORD={Password}" })
+               .SetPublish($"{PortNumber}:1433")
                .SetDetach(true)
-               .SetName("sql1")
-               .SetHostname("sql1")
+               .SetName($"{ImageName}")
+               .SetHostname($"{ImageHostName}")
                .AddCapAdd("SYS_PTRACE"));
         });
 
@@ -124,6 +141,7 @@ class Build : NukeBuild
         {
             DotNetTest(_ => _
                 .SetConfiguration(Configuration)
+                .SetProcessEnvironmentVariable("ConnectionStrings:AppDB", ConnectionString)
                 .SetNoBuild(InvokedTargets.Contains(Compile))
                 .ResetVerbosity()
                 .SetProjectFile(Solution.GetProject("Integration")));
@@ -137,6 +155,7 @@ class Build : NukeBuild
             DotNetTest(_ => _
                 .SetConfiguration(Configuration)
                 .SetNoBuild(InvokedTargets.Contains(Compile))
+                .SetProcessEnvironmentVariable("ConnectionStrings:AppDB", ConnectionString)
                 .ResetVerbosity()
                 .SetProjectFile(Solution.GetProject("Component")));
         });

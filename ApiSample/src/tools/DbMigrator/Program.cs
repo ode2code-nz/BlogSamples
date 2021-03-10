@@ -6,7 +6,10 @@ namespace DbMigrator
     {
         static int Main(string connectionString, bool dropAndRebuildDatabase = false)
         {
-            connectionString ??= "Server=localhost,1433;Database=ToDoDb-Test;Password=Password#01;Trusted_Connection=false;MultipleActiveResultSets=true";
+            if (string.IsNullOrEmpty(connectionString)){
+                throw new ArgumentException("'connectionString' must be provided.");
+            }
+         
 
             var result = Db.Migrate(connectionString, dropAndRebuildDatabase);
 

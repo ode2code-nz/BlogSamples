@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>ToDo.Api</name>
+        <name>ApiSample.Api</name>
     </assembly>
     <members>
         <member name="M:ApiSample.Api.Features.v1.MasterTradingAgreementController.GetAll">
