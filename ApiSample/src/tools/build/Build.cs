@@ -63,21 +63,10 @@ class Build : NukeBuild
 
     AbsolutePath SourceDirectory => RootDirectory / "src/app";
     AbsolutePath ArtifactsDirectory => RootDirectory / "artifacts";
-
-    private readonly string DockerImage= "mcr.microsoft.com/mssql/server:2019-latest";
-    private readonly string Password= "Password_01";
-    private readonly string PortNumber= "1433";
-    private readonly string ImageName= "sql1";
-    private readonly string ImageHostName = "sql1";
-
-    private readonly string DbServer = "localhost";
-    private readonly string DatabaseName = "ApiSampleDb-Test";
-    private readonly string UserId = "sa";
-    
+   
 
     private string ConnectionString => 
-        $"Server={DbServer},{PortNumber};Database={DatabaseName};User Id = {UserId};Password={Password};" +
-        $"MultipleActiveResultSets=True;Trusted_Connection=False;Persist Security Info=true";
+        "Server=localhost,1433;Database=ApiSampleDb-Test;User Id=sa;Password=Password_01;MultipleActiveResultSets=True;Trusted_Connection=False;Persist Security Info=true";
 
 
 Target Clean => _ => _
@@ -111,12 +100,12 @@ Target Clean => _ => _
         .Executes(() =>
         {
             DockerTasks.DockerRun(x =>
-            x.SetImage(DockerImage)
-               .SetEnv(new string[] { "ACCEPT_EULA=Y", $"SA_PASSWORD={Password}" })
-               .SetPublish($"{PortNumber}:1433")
+            x.SetImage("mcr.microsoft.com/mssql/server:2019-latest")
+               .SetEnv(new string[] { "ACCEPT_EULA=Y", "SA_PASSWORD=Password_01" })
+               .SetPublish("1433:1433")
                .SetDetach(true)
-               .SetName($"{ImageName}")
-               .SetHostname($"{ImageHostName}")
+               .SetName("sql1")
+               .SetHostname("sql1")
                .AddCapAdd("SYS_PTRACE"));
         });
 
