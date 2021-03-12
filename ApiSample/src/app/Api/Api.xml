@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiSample.Api</name>
+    </assembly>
+    <members>
+        <member name="M:ApiSample.Api.Features.v1.MasterTradingAgreementController.GetAll">
+            <summary>
+            Gets all the Master Trading Agreements
+            </summary>
+        </member>
+        <member name="M:ApiSample.Api.Features.v1.MasterTradingAgreementController.Get(System.Int32)">
+            <summary>
+            Gets a single Master Trading Agreement
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiSample.Api.Features.v1.MasterTradingAgreementController.Create(ApiSample.SharedModels.v1.MasterTradingAgreements.CreateMasterTradingAgreementRequest)">
+            <summary>
+            Creates a new Master Trading Agreement
+            </summary>T
+            <param name="request"></param>
+        </member>
+        <member name="M:ApiSample.Api.Features.v1.MasterTradingAgreementController.Update(ApiSample.SharedModels.v1.MasterTradingAgreements.UpdateMasterTradingAgreementRequest)">
+            <summary>
+            Update an existing Master Trading Agreement
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiSample.Api.Features.v1.MasterTradingAgreementController.Delete(System.Int32)">
+            <summary>
+            Delete a Master Trading Agreement
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:ApiSample.Api.Features.v1.ToDoController.GetAll">
+            <summary>
+            Gets all the To Do items
+            </summary>
+        </member>
+        <member name="M:ApiSample.Api.Features.v1.ToDoController.Get(System.Int32)">
+            <summary>
+            Gets a single To Do item
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiSample.Api.Features.v1.ToDoController.Create(ApiSample.SharedModels.v1.ToDoItems.CreateToDoItemRequest)">
+            <summary>
+            Creates a new To Do item
+            </summary>T
+            <param name="request"></param>
+        </member>
+        <member name="M:ApiSample.Api.Features.v1.ToDoController.Update(ApiSample.SharedModels.v1.ToDoItems.UpdateToDoItemRequest)">
+            <summary>
+            Update an existing To Do item
+            </summary>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ApiSample.Api.Features.v1.ToDoController.Delete(System.Int32)">
+            <summary>
+            Delete a To Do item
+            </summary>
+            <param name="id"></param>
+        </member>
+    </members>
+</doc>
